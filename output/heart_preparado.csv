@@ -1,0 +1,919 @@
+Age,Sex,ChestPainType,RestingBP,Cholesterol,FastingBS,RestingECG,MaxHR,ExerciseAngina,Oldpeak,ST_Slope,HeartDisease,Sex_desc,ChestPainType_desc,RestingECG_desc,ExerciseAngina_desc,ST_Slope_desc,FastingBS_desc,HeartDisease_desc,ID_Paciente,Costo_Tratamiento_USD
+40,M,ATA,140,289,0,Normal,172,N,0.0,Up,0,Hombre,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00001,4300.0
+49,F,NAP,160,180,0,Normal,156,N,1.0,Flat,1,Mujer,Dolor no anginoso,Normal,No,Plano,Glucosa Normal,Enfermo,PAC-00002,21600.0
+37,M,ATA,130,283,0,ST,98,N,0.0,Up,0,Hombre,Angina atipica,Anomalia ST-T,No,Ascendente,Glucosa Normal,Sano,PAC-00003,4400.0
+48,F,ASY,138,214,0,Normal,108,Y,1.5,Flat,1,Mujer,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00004,34700.0
+54,M,NAP,150,195,0,Normal,122,N,0.0,Up,0,Hombre,Dolor no anginoso,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00005,5500.0
+39,M,NAP,120,339,0,Normal,170,N,0.0,Up,0,Hombre,Dolor no anginoso,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00006,4000.0
+45,F,ATA,130,237,0,Normal,170,N,0.0,Up,0,Mujer,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00007,5700.0
+54,M,ATA,110,208,0,Normal,142,N,0.0,Up,0,Hombre,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00008,6300.0
+37,M,ASY,140,207,0,Normal,130,Y,1.5,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00009,25300.0
+48,F,ATA,120,284,0,Normal,120,N,0.0,Up,0,Mujer,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00010,5400.0
+37,F,NAP,130,211,0,Normal,142,N,0.0,Up,0,Mujer,Dolor no anginoso,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00011,4000.0
+58,M,ATA,136,164,0,ST,99,Y,2.0,Flat,1,Hombre,Angina atipica,Anomalia ST-T,Si,Plano,Glucosa Normal,Enfermo,PAC-00012,25700.0
+39,M,ATA,120,204,0,Normal,145,N,0.0,Up,0,Hombre,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00013,4100.0
+49,M,ASY,140,234,0,Normal,140,Y,1.0,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00014,19300.0
+42,F,NAP,115,211,0,ST,137,N,0.0,Up,0,Mujer,Dolor no anginoso,Anomalia ST-T,No,Ascendente,Glucosa Normal,Sano,PAC-00015,4000.0
+54,F,ATA,120,273,0,Normal,150,N,1.5,Flat,0,Mujer,Angina atipica,Normal,No,Plano,Glucosa Normal,Sano,PAC-00016,10900.0
+38,M,ASY,110,196,0,Normal,166,N,0.0,Flat,1,Hombre,Asintomatico,Normal,No,Plano,Glucosa Normal,Enfermo,PAC-00017,18200.0
+43,F,ATA,120,201,0,Normal,165,N,0.0,Up,0,Mujer,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00018,4600.0
+60,M,ASY,100,248,0,Normal,125,N,1.0,Flat,1,Hombre,Asintomatico,Normal,No,Plano,Glucosa Normal,Enfermo,PAC-00019,22800.0
+36,M,ATA,120,267,0,Normal,160,N,3.0,Flat,1,Hombre,Angina atipica,Normal,No,Plano,Glucosa Normal,Enfermo,PAC-00020,20500.0
+43,F,TA,100,223,0,Normal,142,N,0.0,Up,0,Mujer,Angina tipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00021,5300.0
+44,M,ATA,120,184,0,Normal,142,N,1.0,Flat,0,Hombre,Angina atipica,Normal,No,Plano,Glucosa Normal,Sano,PAC-00022,9200.0
+49,F,ATA,124,201,0,Normal,164,N,0.0,Up,0,Mujer,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00023,5100.0
+44,M,ATA,150,288,0,Normal,150,Y,3.0,Flat,1,Hombre,Angina atipica,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00024,22400.0
+40,M,NAP,130,215,0,Normal,138,N,0.0,Up,0,Hombre,Dolor no anginoso,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00025,4000.0
+36,M,NAP,130,209,0,Normal,178,N,0.0,Up,0,Hombre,Dolor no anginoso,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00026,4100.0
+53,M,ASY,124,260,0,ST,112,Y,3.0,Flat,0,Hombre,Asintomatico,Anomalia ST-T,Si,Plano,Glucosa Normal,Sano,PAC-00027,17000.0
+52,M,ATA,120,284,0,Normal,118,N,0.0,Up,0,Hombre,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00028,5700.0
+53,F,ATA,113,468,0,Normal,127,N,0.0,Up,0,Mujer,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00029,5100.0
+51,M,ATA,125,188,0,Normal,145,N,0.0,Up,0,Hombre,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00030,5100.0
+53,M,NAP,145,518,0,Normal,130,N,0.0,Flat,1,Hombre,Dolor no anginoso,Normal,No,Plano,Glucosa Normal,Enfermo,PAC-00031,18200.0
+56,M,NAP,130,167,0,Normal,114,N,0.0,Up,0,Hombre,Dolor no anginoso,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00032,7600.0
+54,M,ASY,125,224,0,Normal,122,N,2.0,Flat,1,Hombre,Asintomatico,Normal,No,Plano,Glucosa Normal,Enfermo,PAC-00033,28100.0
+41,M,ASY,130,172,0,ST,130,N,2.0,Flat,1,Hombre,Asintomatico,Anomalia ST-T,No,Plano,Glucosa Normal,Enfermo,PAC-00034,22400.0
+43,F,ATA,150,186,0,Normal,154,N,0.0,Up,0,Mujer,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00035,4900.0
+32,M,ATA,125,254,0,Normal,155,N,0.0,Up,0,Hombre,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00036,4000.0
+65,M,ASY,140,306,1,Normal,87,Y,1.5,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Alta,Enfermo,PAC-00037,31200.0
+41,F,ATA,110,250,0,ST,142,N,0.0,Up,0,Mujer,Angina atipica,Anomalia ST-T,No,Ascendente,Glucosa Normal,Sano,PAC-00038,4000.0
+48,F,ATA,120,177,1,ST,148,N,0.0,Up,0,Mujer,Angina atipica,Anomalia ST-T,No,Ascendente,Glucosa Alta,Sano,PAC-00039,4000.0
+48,F,ASY,150,227,0,Normal,130,Y,1.0,Flat,0,Mujer,Asintomatico,Normal,Si,Plano,Glucosa Normal,Sano,PAC-00040,15400.0
+54,F,ATA,150,230,0,Normal,130,N,0.0,Up,0,Mujer,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00041,6300.0
+54,F,NAP,130,294,0,ST,100,Y,0.0,Flat,1,Mujer,Dolor no anginoso,Anomalia ST-T,Si,Plano,Glucosa Normal,Enfermo,PAC-00042,22800.0
+35,M,ATA,150,264,0,Normal,168,N,0.0,Up,0,Hombre,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00043,4000.0
+52,M,NAP,140,259,0,ST,170,N,0.0,Up,0,Hombre,Dolor no anginoso,Anomalia ST-T,No,Ascendente,Glucosa Normal,Sano,PAC-00044,5200.0
+43,M,ASY,120,175,0,Normal,120,Y,1.0,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00045,20500.0
+59,M,NAP,130,318,0,Normal,120,Y,1.0,Flat,0,Hombre,Dolor no anginoso,Normal,Si,Plano,Glucosa Normal,Sano,PAC-00046,11800.0
+37,M,ASY,120,223,0,Normal,168,N,0.0,Up,0,Hombre,Asintomatico,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00047,6500.0
+50,M,ATA,140,216,0,Normal,170,N,0.0,Up,0,Hombre,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00048,6000.0
+36,M,NAP,112,340,0,Normal,184,N,1.0,Flat,0,Hombre,Dolor no anginoso,Normal,No,Plano,Glucosa Normal,Sano,PAC-00049,9500.0
+41,M,ASY,110,289,0,Normal,170,N,0.0,Flat,1,Hombre,Asintomatico,Normal,No,Plano,Glucosa Normal,Enfermo,PAC-00050,15900.0
+50,M,ASY,130,233,0,Normal,121,Y,2.0,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00051,31100.0
+47,F,ASY,120,205,0,Normal,98,Y,2.0,Flat,1,Mujer,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00052,27600.0
+45,M,ATA,140,224,1,Normal,122,N,0.0,Up,0,Hombre,Angina atipica,Normal,No,Ascendente,Glucosa Alta,Sano,PAC-00053,4100.0
+41,F,ATA,130,245,0,Normal,150,N,0.0,Up,0,Mujer,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00054,4500.0
+52,F,ASY,130,180,0,Normal,140,Y,1.5,Flat,0,Mujer,Asintomatico,Normal,Si,Plano,Glucosa Normal,Sano,PAC-00055,19300.0
+51,F,ATA,160,194,0,Normal,170,N,0.0,Up,0,Mujer,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00056,6100.0
+31,M,ASY,120,270,0,Normal,153,Y,1.5,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00057,23800.0
+58,M,NAP,130,213,0,ST,140,N,0.0,Flat,1,Hombre,Dolor no anginoso,Anomalia ST-T,No,Plano,Glucosa Normal,Enfermo,PAC-00058,19700.0
+54,M,ASY,150,365,0,ST,134,N,1.0,Up,0,Hombre,Asintomatico,Anomalia ST-T,No,Ascendente,Glucosa Normal,Sano,PAC-00059,11700.0
+52,M,ASY,112,342,0,ST,96,Y,1.0,Flat,1,Hombre,Asintomatico,Anomalia ST-T,Si,Plano,Glucosa Normal,Enfermo,PAC-00060,31500.0
+49,M,ATA,100,253,0,Normal,174,N,0.0,Up,0,Hombre,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00061,4700.0
+43,F,NAP,150,254,0,Normal,175,N,0.0,Up,0,Mujer,Dolor no anginoso,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00062,4200.0
+45,M,ASY,140,224,0,Normal,144,N,0.0,Up,0,Hombre,Asintomatico,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00063,6300.0
+46,M,ASY,120,277,0,Normal,125,Y,1.0,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00064,21900.0
+50,F,ATA,110,202,0,Normal,145,N,0.0,Up,0,Mujer,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00065,5800.0
+37,F,ATA,120,260,0,Normal,130,N,0.0,Up,0,Mujer,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00066,4800.0
+45,F,ASY,132,297,0,Normal,144,N,0.0,Up,0,Mujer,Asintomatico,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00067,7500.0
+32,M,ATA,110,225,0,Normal,184,N,0.0,Up,0,Hombre,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00068,4600.0
+52,M,ASY,160,246,0,ST,82,Y,4.0,Flat,1,Hombre,Asintomatico,Anomalia ST-T,Si,Plano,Glucosa Normal,Enfermo,PAC-00069,36800.0
+44,M,ASY,150,412,0,Normal,170,N,0.0,Up,0,Hombre,Asintomatico,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00070,6800.0
+57,M,ATA,140,265,0,ST,145,Y,1.0,Flat,1,Hombre,Angina atipica,Anomalia ST-T,Si,Plano,Glucosa Normal,Enfermo,PAC-00071,26400.0
+44,M,ATA,130,215,0,Normal,135,N,0.0,Up,0,Hombre,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00072,5500.0
+52,M,ASY,120,182,0,Normal,150,N,0.0,Flat,1,Hombre,Asintomatico,Normal,No,Plano,Glucosa Normal,Enfermo,PAC-00073,22800.0
+44,F,ASY,120,218,0,ST,115,N,0.0,Up,0,Mujer,Asintomatico,Anomalia ST-T,No,Ascendente,Glucosa Normal,Sano,PAC-00074,9200.0
+55,M,ASY,140,268,0,Normal,128,Y,1.5,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00075,17600.0
+46,M,NAP,150,163,0,Normal,116,N,0.0,Up,0,Hombre,Dolor no anginoso,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00076,5300.0
+32,M,ASY,118,529,0,Normal,130,N,0.0,Flat,1,Hombre,Asintomatico,Normal,No,Plano,Glucosa Normal,Enfermo,PAC-00077,21800.0
+35,F,ASY,140,167,0,Normal,150,N,0.0,Up,0,Mujer,Asintomatico,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00078,6700.0
+52,M,ATA,140,100,0,Normal,138,Y,0.0,Up,0,Hombre,Angina atipica,Normal,Si,Ascendente,Glucosa Normal,Sano,PAC-00079,7500.0
+49,M,ASY,130,206,0,Normal,170,N,0.0,Flat,1,Hombre,Asintomatico,Normal,No,Plano,Glucosa Normal,Enfermo,PAC-00080,15800.0
+55,M,NAP,110,277,0,Normal,160,N,0.0,Up,0,Hombre,Dolor no anginoso,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00081,5600.0
+54,M,ATA,120,238,0,Normal,154,N,0.0,Up,0,Hombre,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00082,6000.0
+63,M,ASY,150,223,0,Normal,115,N,0.0,Flat,1,Hombre,Asintomatico,Normal,No,Plano,Glucosa Normal,Enfermo,PAC-00083,29600.0
+52,M,ATA,160,196,0,Normal,165,N,0.0,Up,0,Hombre,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00084,5000.0
+56,M,ASY,150,213,1,Normal,125,Y,1.0,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Alta,Enfermo,PAC-00085,24500.0
+66,M,ASY,140,139,0,Normal,94,Y,1.0,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00086,26900.0
+65,M,ASY,170,263,1,Normal,112,Y,2.0,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Alta,Enfermo,PAC-00087,35800.0
+53,F,ATA,140,216,0,Normal,142,Y,2.0,Flat,0,Mujer,Angina atipica,Normal,Si,Plano,Glucosa Normal,Sano,PAC-00088,15800.0
+43,M,TA,120,291,0,ST,155,N,0.0,Flat,1,Hombre,Angina tipica,Anomalia ST-T,No,Plano,Glucosa Normal,Enfermo,PAC-00089,17400.0
+55,M,ASY,140,229,0,Normal,110,Y,0.5,Flat,0,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Sano,PAC-00090,15700.0
+49,F,ATA,110,208,0,Normal,160,N,0.0,Up,0,Mujer,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00091,5200.0
+39,M,ASY,130,307,0,Normal,140,N,0.0,Up,0,Hombre,Asintomatico,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00092,8000.0
+52,F,ATA,120,210,0,Normal,148,N,0.0,Up,0,Mujer,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00093,4900.0
+48,M,ASY,160,329,0,Normal,92,Y,1.5,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00094,26800.0
+39,F,NAP,110,182,0,ST,180,N,0.0,Up,0,Mujer,Dolor no anginoso,Anomalia ST-T,No,Ascendente,Glucosa Normal,Sano,PAC-00095,4000.0
+58,M,ASY,130,263,0,Normal,140,Y,2.0,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00096,23900.0
+43,M,ATA,142,207,0,Normal,138,N,0.0,Up,0,Hombre,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00097,4600.0
+39,M,NAP,160,147,1,Normal,160,N,0.0,Up,0,Hombre,Dolor no anginoso,Normal,No,Ascendente,Glucosa Alta,Sano,PAC-00098,4200.0
+56,M,ASY,120,85,0,Normal,140,N,0.0,Up,0,Hombre,Asintomatico,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00099,8900.0
+41,M,ATA,125,269,0,Normal,144,N,0.0,Up,0,Hombre,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00100,4000.0
+65,M,ASY,130,275,0,ST,115,Y,1.0,Flat,1,Hombre,Asintomatico,Anomalia ST-T,Si,Plano,Glucosa Normal,Enfermo,PAC-00101,22800.0
+51,M,ASY,130,179,0,Normal,100,N,0.0,Up,0,Hombre,Asintomatico,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00102,7800.0
+40,F,ASY,150,392,0,Normal,130,N,2.0,Flat,1,Mujer,Asintomatico,Normal,No,Plano,Glucosa Normal,Enfermo,PAC-00103,25100.0
+40,M,ASY,120,466,1,Normal,152,Y,1.0,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Alta,Enfermo,PAC-00104,22900.0
+46,M,ASY,118,186,0,Normal,124,N,0.0,Flat,1,Hombre,Asintomatico,Normal,No,Plano,Glucosa Normal,Enfermo,PAC-00105,21700.0
+57,M,ATA,140,260,1,Normal,140,N,0.0,Up,0,Hombre,Angina atipica,Normal,No,Ascendente,Glucosa Alta,Sano,PAC-00106,6400.0
+48,F,ASY,120,254,0,ST,110,N,0.0,Up,0,Mujer,Asintomatico,Anomalia ST-T,No,Ascendente,Glucosa Normal,Sano,PAC-00107,10200.0
+34,M,ATA,150,214,0,ST,168,N,0.0,Up,0,Hombre,Angina atipica,Anomalia ST-T,No,Ascendente,Glucosa Normal,Sano,PAC-00108,4100.0
+50,M,ASY,140,129,0,Normal,135,N,0.0,Up,0,Hombre,Asintomatico,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00109,8500.0
+39,M,ATA,190,241,0,Normal,106,N,0.0,Up,0,Hombre,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00110,4000.0
+59,F,ATA,130,188,0,Normal,124,N,1.0,Flat,0,Mujer,Angina atipica,Normal,No,Plano,Glucosa Normal,Sano,PAC-00111,8000.0
+57,M,ASY,150,255,0,Normal,92,Y,3.0,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00112,32900.0
+47,M,ASY,140,276,1,Normal,125,Y,0.0,Up,0,Hombre,Asintomatico,Normal,Si,Ascendente,Glucosa Alta,Sano,PAC-00113,9900.0
+38,M,ATA,140,297,0,Normal,150,N,0.0,Up,0,Hombre,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00114,5500.0
+49,F,NAP,130,207,0,ST,135,N,0.0,Up,0,Mujer,Dolor no anginoso,Anomalia ST-T,No,Ascendente,Glucosa Normal,Sano,PAC-00115,4900.0
+33,F,ASY,100,246,0,Normal,150,Y,1.0,Flat,1,Mujer,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00116,27200.0
+38,M,ASY,120,282,0,Normal,170,N,0.0,Flat,1,Hombre,Asintomatico,Normal,No,Plano,Glucosa Normal,Enfermo,PAC-00117,21400.0
+59,F,ASY,130,338,1,ST,130,Y,1.5,Flat,1,Mujer,Asintomatico,Anomalia ST-T,Si,Plano,Glucosa Alta,Enfermo,PAC-00118,24400.0
+35,F,TA,120,160,0,ST,185,N,0.0,Up,0,Mujer,Angina tipica,Anomalia ST-T,No,Ascendente,Glucosa Normal,Sano,PAC-00119,4700.0
+34,M,TA,140,156,0,Normal,180,N,0.0,Flat,1,Hombre,Angina tipica,Normal,No,Plano,Glucosa Normal,Enfermo,PAC-00120,20600.0
+47,F,NAP,135,248,1,Normal,170,N,0.0,Flat,1,Mujer,Dolor no anginoso,Normal,No,Plano,Glucosa Alta,Enfermo,PAC-00121,21600.0
+52,F,NAP,125,272,0,Normal,139,N,0.0,Up,0,Mujer,Dolor no anginoso,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00122,4700.0
+46,M,ASY,110,240,0,ST,140,N,0.0,Up,0,Hombre,Asintomatico,Anomalia ST-T,No,Ascendente,Glucosa Normal,Sano,PAC-00123,9300.0
+58,F,ATA,180,393,0,Normal,110,Y,1.0,Flat,1,Mujer,Angina atipica,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00124,19900.0
+58,M,ATA,130,230,0,Normal,150,N,0.0,Up,0,Hombre,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00125,6700.0
+54,M,ATA,120,246,0,Normal,110,N,0.0,Up,0,Hombre,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00126,7500.0
+34,F,ATA,130,161,0,Normal,190,N,0.0,Up,0,Mujer,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00127,4000.0
+48,F,ASY,108,163,0,Normal,175,N,2.0,Up,0,Mujer,Asintomatico,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00128,11900.0
+54,F,ATA,120,230,1,Normal,140,N,0.0,Up,0,Mujer,Angina atipica,Normal,No,Ascendente,Glucosa Alta,Sano,PAC-00129,5800.0
+42,M,NAP,120,228,0,Normal,152,Y,1.5,Flat,0,Hombre,Dolor no anginoso,Normal,Si,Plano,Glucosa Normal,Sano,PAC-00130,11500.0
+38,M,NAP,145,292,0,Normal,130,N,0.0,Up,0,Hombre,Dolor no anginoso,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00131,4000.0
+46,M,ASY,110,202,0,Normal,150,Y,0.0,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00132,24500.0
+56,M,ASY,170,388,0,ST,122,Y,2.0,Flat,1,Hombre,Asintomatico,Anomalia ST-T,Si,Plano,Glucosa Normal,Enfermo,PAC-00133,25600.0
+56,M,ASY,150,230,0,ST,124,Y,1.5,Flat,1,Hombre,Asintomatico,Anomalia ST-T,Si,Plano,Glucosa Normal,Enfermo,PAC-00134,31200.0
+61,F,ASY,130,294,0,ST,120,Y,1.0,Flat,0,Mujer,Asintomatico,Anomalia ST-T,Si,Plano,Glucosa Normal,Sano,PAC-00135,14200.0
+49,M,NAP,115,265,0,Normal,175,N,0.0,Flat,1,Hombre,Dolor no anginoso,Normal,No,Plano,Glucosa Normal,Enfermo,PAC-00136,24100.0
+43,F,ATA,120,215,0,ST,175,N,0.0,Up,0,Mujer,Angina atipica,Anomalia ST-T,No,Ascendente,Glucosa Normal,Sano,PAC-00137,4000.0
+39,M,ATA,120,241,0,ST,146,N,2.0,Up,0,Hombre,Angina atipica,Anomalia ST-T,No,Ascendente,Glucosa Normal,Sano,PAC-00138,8600.0
+54,M,ASY,140,166,0,Normal,118,Y,0.0,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00139,28300.0
+43,M,ASY,150,247,0,Normal,130,Y,2.0,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00140,23500.0
+52,M,ASY,160,331,0,Normal,94,Y,2.5,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00141,32300.0
+50,M,ASY,140,341,0,ST,125,Y,2.5,Flat,1,Hombre,Asintomatico,Anomalia ST-T,Si,Plano,Glucosa Normal,Enfermo,PAC-00142,37000.0
+47,M,ASY,160,291,0,ST,158,Y,3.0,Flat,1,Hombre,Asintomatico,Anomalia ST-T,Si,Plano,Glucosa Normal,Enfermo,PAC-00143,24200.0
+53,M,ASY,140,243,0,Normal,155,N,0.0,Up,0,Hombre,Asintomatico,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00144,8800.0
+56,F,ATA,120,279,0,Normal,150,N,1.0,Flat,1,Mujer,Angina atipica,Normal,No,Plano,Glucosa Normal,Enfermo,PAC-00145,23800.0
+39,M,ASY,110,273,0,Normal,132,N,0.0,Up,0,Hombre,Asintomatico,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00146,7800.0
+42,M,ATA,120,198,0,Normal,155,N,0.0,Up,0,Hombre,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00147,4000.0
+43,F,ATA,120,249,0,ST,176,N,0.0,Up,0,Mujer,Angina atipica,Anomalia ST-T,No,Ascendente,Glucosa Normal,Sano,PAC-00148,4000.0
+50,M,ATA,120,168,0,Normal,160,N,0.0,Up,0,Hombre,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00149,5600.0
+54,M,ASY,130,603,1,Normal,125,Y,1.0,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Alta,Enfermo,PAC-00150,28900.0
+39,M,ATA,130,215,0,Normal,120,N,0.0,Up,0,Hombre,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00151,4200.0
+48,M,ATA,100,159,0,Normal,100,N,0.0,Up,0,Hombre,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00152,5200.0
+40,M,ATA,130,275,0,Normal,150,N,0.0,Up,0,Hombre,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00153,4000.0
+55,M,ASY,120,270,0,Normal,140,N,0.0,Up,0,Hombre,Asintomatico,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00154,9100.0
+41,M,ATA,120,291,0,ST,160,N,0.0,Up,0,Hombre,Angina atipica,Anomalia ST-T,No,Ascendente,Glucosa Normal,Sano,PAC-00155,4300.0
+56,M,ASY,155,342,1,Normal,150,Y,3.0,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Alta,Enfermo,PAC-00156,29400.0
+38,M,ASY,110,190,0,Normal,150,Y,1.0,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00157,33300.0
+49,M,ASY,140,185,0,Normal,130,N,0.0,Up,0,Hombre,Asintomatico,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00158,8700.0
+44,M,ASY,130,290,0,Normal,100,Y,2.0,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00159,23800.0
+54,M,ATA,160,195,0,ST,130,N,1.0,Up,0,Hombre,Angina atipica,Anomalia ST-T,No,Ascendente,Glucosa Normal,Sano,PAC-00160,9000.0
+59,M,ASY,140,264,1,LVH,119,Y,0.0,Flat,1,Hombre,Asintomatico,Hipertrofia VI,Si,Plano,Glucosa Alta,Enfermo,PAC-00161,22000.0
+49,M,ASY,128,212,0,Normal,96,Y,0.0,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00162,27500.0
+47,M,ATA,160,263,0,Normal,174,N,0.0,Up,0,Hombre,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00163,5700.0
+42,M,ATA,120,196,0,Normal,150,N,0.0,Up,0,Hombre,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00164,4000.0
+52,F,ATA,140,225,0,Normal,140,N,0.0,Up,0,Mujer,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00165,6200.0
+46,M,TA,140,272,1,Normal,175,N,2.0,Flat,1,Hombre,Angina tipica,Normal,No,Plano,Glucosa Alta,Enfermo,PAC-00166,25700.0
+50,M,ASY,140,231,0,ST,140,Y,5.0,Flat,1,Hombre,Asintomatico,Anomalia ST-T,Si,Plano,Glucosa Normal,Enfermo,PAC-00167,41800.0
+48,M,ATA,140,238,0,Normal,118,N,0.0,Up,0,Hombre,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00168,6400.0
+58,M,ASY,135,222,0,Normal,100,N,0.0,Up,0,Hombre,Asintomatico,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00169,8800.0
+58,M,NAP,140,179,0,Normal,160,N,0.0,Up,0,Hombre,Dolor no anginoso,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00170,5500.0
+29,M,ATA,120,243,0,Normal,160,N,0.0,Up,0,Hombre,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00171,4000.0
+40,M,NAP,140,235,0,Normal,188,N,0.0,Up,0,Hombre,Dolor no anginoso,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00172,4000.0
+53,M,ATA,140,320,0,Normal,162,N,0.0,Up,0,Hombre,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00173,5500.0
+49,M,NAP,140,187,0,Normal,172,N,0.0,Up,0,Hombre,Dolor no anginoso,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00174,5300.0
+52,M,ASY,140,266,0,Normal,134,Y,2.0,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00175,31200.0
+43,M,ASY,140,288,0,Normal,135,Y,2.0,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00176,32400.0
+54,M,ASY,140,216,0,Normal,105,N,1.5,Flat,1,Hombre,Asintomatico,Normal,No,Plano,Glucosa Normal,Enfermo,PAC-00177,27000.0
+59,M,ATA,140,287,0,Normal,150,N,0.0,Up,0,Hombre,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00178,7600.0
+37,M,NAP,130,194,0,Normal,150,N,0.0,Up,0,Hombre,Dolor no anginoso,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00179,4000.0
+46,F,ASY,130,238,0,Normal,90,N,0.0,Up,0,Mujer,Asintomatico,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00180,10900.0
+52,M,ASY,130,225,0,Normal,120,Y,2.0,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00181,32700.0
+51,M,ATA,130,224,0,Normal,150,N,0.0,Up,0,Hombre,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00182,4600.0
+52,M,ASY,140,404,0,Normal,124,Y,2.0,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00183,25100.0
+46,M,ASY,110,238,0,ST,140,Y,1.0,Flat,0,Hombre,Asintomatico,Anomalia ST-T,Si,Plano,Glucosa Normal,Sano,PAC-00184,15800.0
+54,F,ATA,160,312,0,Normal,130,N,0.0,Up,0,Mujer,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00185,5500.0
+58,M,NAP,160,211,1,ST,92,N,0.0,Flat,1,Hombre,Dolor no anginoso,Anomalia ST-T,No,Plano,Glucosa Alta,Enfermo,PAC-00186,22900.0
+58,M,ATA,130,251,0,Normal,110,N,0.0,Up,0,Hombre,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00187,6600.0
+41,M,ASY,120,237,1,Normal,138,Y,1.0,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Alta,Enfermo,PAC-00188,25800.0
+50,F,ASY,120,328,0,Normal,110,Y,1.0,Flat,0,Mujer,Asintomatico,Normal,Si,Plano,Glucosa Normal,Sano,PAC-00189,13300.0
+53,M,ASY,180,285,0,ST,120,Y,1.5,Flat,1,Hombre,Asintomatico,Anomalia ST-T,Si,Plano,Glucosa Normal,Enfermo,PAC-00190,22300.0
+46,M,ASY,180,280,0,ST,120,N,0.0,Up,0,Hombre,Asintomatico,Anomalia ST-T,No,Ascendente,Glucosa Normal,Sano,PAC-00191,7200.0
+50,M,ATA,170,209,0,ST,116,N,0.0,Up,0,Hombre,Angina atipica,Anomalia ST-T,No,Ascendente,Glucosa Normal,Sano,PAC-00192,5900.0
+48,M,ATA,130,245,0,Normal,160,N,0.0,Up,0,Hombre,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00193,5100.0
+45,M,NAP,135,192,0,Normal,110,N,0.0,Up,0,Hombre,Dolor no anginoso,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00194,4000.0
+41,F,ATA,125,184,0,Normal,180,N,0.0,Up,0,Mujer,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00195,4200.0
+62,F,TA,160,193,0,Normal,116,N,0.0,Up,0,Mujer,Angina tipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00196,7000.0
+49,M,ASY,120,297,0,Normal,132,N,1.0,Flat,0,Hombre,Asintomatico,Normal,No,Plano,Glucosa Normal,Sano,PAC-00197,11300.0
+42,M,ATA,150,268,0,Normal,136,N,0.0,Up,0,Hombre,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00198,4300.0
+53,M,ASY,120,246,0,Normal,116,Y,0.0,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00199,25300.0
+57,F,TA,130,308,0,Normal,98,N,1.0,Flat,0,Mujer,Angina tipica,Normal,No,Plano,Glucosa Normal,Sano,PAC-00200,9100.0
+47,M,TA,110,249,0,Normal,150,N,0.0,Up,0,Hombre,Angina tipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00201,5100.0
+46,M,NAP,120,230,0,Normal,150,N,0.0,Up,0,Hombre,Dolor no anginoso,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00202,5100.0
+42,M,NAP,160,147,0,Normal,146,N,0.0,Up,0,Hombre,Dolor no anginoso,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00203,4900.0
+31,F,ATA,100,219,0,ST,150,N,0.0,Up,0,Mujer,Angina atipica,Anomalia ST-T,No,Ascendente,Glucosa Normal,Sano,PAC-00204,4600.0
+56,M,ATA,130,184,0,Normal,100,N,0.0,Up,0,Hombre,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00205,4700.0
+50,M,ASY,150,215,0,Normal,140,Y,0.0,Up,0,Hombre,Asintomatico,Normal,Si,Ascendente,Glucosa Normal,Sano,PAC-00206,8800.0
+35,M,ATA,120,308,0,LVH,180,N,0.0,Up,0,Hombre,Angina atipica,Hipertrofia VI,No,Ascendente,Glucosa Normal,Sano,PAC-00207,4300.0
+35,M,ATA,110,257,0,Normal,140,N,0.0,Flat,1,Hombre,Angina atipica,Normal,No,Plano,Glucosa Normal,Enfermo,PAC-00208,19900.0
+28,M,ATA,130,132,0,LVH,185,N,0.0,Up,0,Hombre,Angina atipica,Hipertrofia VI,No,Ascendente,Glucosa Normal,Sano,PAC-00209,4300.0
+54,M,ASY,125,216,0,Normal,140,N,0.0,Flat,1,Hombre,Asintomatico,Normal,No,Plano,Glucosa Normal,Enfermo,PAC-00210,36600.0
+48,M,ASY,106,263,1,Normal,110,N,0.0,Flat,1,Hombre,Asintomatico,Normal,No,Plano,Glucosa Alta,Enfermo,PAC-00211,24400.0
+50,F,NAP,140,288,0,Normal,140,Y,0.0,Flat,1,Mujer,Dolor no anginoso,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00212,25400.0
+56,M,NAP,130,276,0,Normal,128,Y,1.0,Up,0,Hombre,Dolor no anginoso,Normal,Si,Ascendente,Glucosa Normal,Sano,PAC-00213,11900.0
+56,F,NAP,130,219,0,ST,164,N,0.0,Up,0,Mujer,Dolor no anginoso,Anomalia ST-T,No,Ascendente,Glucosa Normal,Sano,PAC-00214,6500.0
+47,M,ASY,150,226,0,Normal,98,Y,1.5,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00215,26800.0
+30,F,TA,170,237,0,ST,170,N,0.0,Up,0,Mujer,Angina tipica,Anomalia ST-T,No,Ascendente,Glucosa Normal,Sano,PAC-00216,4500.0
+39,M,ASY,110,280,0,Normal,150,N,0.0,Flat,1,Hombre,Asintomatico,Normal,No,Plano,Glucosa Normal,Enfermo,PAC-00217,19000.0
+54,M,NAP,120,217,0,Normal,137,N,0.0,Up,0,Hombre,Dolor no anginoso,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00218,5500.0
+55,M,ATA,140,196,0,Normal,150,N,0.0,Up,0,Hombre,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00219,5400.0
+29,M,ATA,140,263,0,Normal,170,N,0.0,Up,0,Hombre,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00220,4000.0
+46,M,ASY,130,222,0,Normal,112,N,0.0,Flat,1,Hombre,Asintomatico,Normal,No,Plano,Glucosa Normal,Enfermo,PAC-00221,29900.0
+51,F,ASY,160,303,0,Normal,150,Y,1.0,Flat,1,Mujer,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00222,19700.0
+48,F,NAP,120,195,0,Normal,125,N,0.0,Up,0,Mujer,Dolor no anginoso,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00223,5500.0
+33,M,NAP,120,298,0,Normal,185,N,0.0,Up,0,Hombre,Dolor no anginoso,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00224,4000.0
+55,M,ATA,120,256,1,Normal,137,N,0.0,Up,0,Hombre,Angina atipica,Normal,No,Ascendente,Glucosa Alta,Sano,PAC-00225,5400.0
+50,M,ASY,145,264,0,Normal,150,N,0.0,Flat,1,Hombre,Asintomatico,Normal,No,Plano,Glucosa Normal,Enfermo,PAC-00226,26400.0
+53,M,NAP,120,195,0,Normal,140,N,0.0,Up,0,Hombre,Dolor no anginoso,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00227,5600.0
+38,M,ASY,92,117,0,Normal,134,Y,2.5,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00228,24900.0
+41,M,ATA,120,295,0,Normal,170,N,0.0,Up,0,Hombre,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00229,4000.0
+37,F,ASY,130,173,0,ST,184,N,0.0,Up,0,Mujer,Asintomatico,Anomalia ST-T,No,Ascendente,Glucosa Normal,Sano,PAC-00230,7700.0
+37,M,ASY,130,315,0,Normal,158,N,0.0,Up,0,Hombre,Asintomatico,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00231,6200.0
+40,M,NAP,130,281,0,Normal,167,N,0.0,Up,0,Hombre,Dolor no anginoso,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00232,4100.0
+38,F,ATA,120,275,0,Normal,129,N,0.0,Up,0,Mujer,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00233,4000.0
+41,M,ASY,112,250,0,Normal,142,N,0.0,Up,0,Hombre,Asintomatico,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00234,6400.0
+54,F,ATA,140,309,0,ST,140,N,0.0,Up,0,Mujer,Angina atipica,Anomalia ST-T,No,Ascendente,Glucosa Normal,Sano,PAC-00235,7500.0
+39,M,ATA,120,200,0,Normal,160,Y,1.0,Flat,0,Hombre,Angina atipica,Normal,Si,Plano,Glucosa Normal,Sano,PAC-00236,12000.0
+41,M,ASY,120,336,0,Normal,118,Y,3.0,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00237,21700.0
+55,M,TA,140,295,0,Normal,136,N,0.0,Flat,1,Hombre,Angina tipica,Normal,No,Plano,Glucosa Normal,Enfermo,PAC-00238,20900.0
+48,M,ASY,160,355,0,Normal,99,Y,2.0,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00239,26500.0
+48,M,ASY,160,193,0,Normal,102,Y,3.0,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00240,36000.0
+55,M,ATA,145,326,0,Normal,155,N,0.0,Up,0,Hombre,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00241,5100.0
+54,M,ASY,200,198,0,Normal,142,Y,2.0,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00242,29700.0
+55,M,ATA,160,292,1,Normal,143,Y,2.0,Flat,1,Hombre,Angina atipica,Normal,Si,Plano,Glucosa Alta,Enfermo,PAC-00243,29400.0
+43,F,ATA,120,266,0,Normal,118,N,0.0,Up,0,Mujer,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00244,4900.0
+48,M,ASY,160,268,0,Normal,103,Y,1.0,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00245,22100.0
+54,M,TA,120,171,0,Normal,137,N,2.0,Up,0,Hombre,Angina tipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00246,10100.0
+54,M,NAP,120,237,0,Normal,150,Y,1.5,Flat,1,Hombre,Dolor no anginoso,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00247,24100.0
+48,M,ASY,122,275,1,ST,150,Y,2.0,Down,1,Hombre,Asintomatico,Anomalia ST-T,Si,Descendente,Glucosa Alta,Enfermo,PAC-00248,26600.0
+45,M,ASY,130,219,0,ST,130,Y,1.0,Flat,1,Hombre,Asintomatico,Anomalia ST-T,Si,Plano,Glucosa Normal,Enfermo,PAC-00249,33600.0
+49,M,ASY,130,341,0,Normal,120,Y,1.0,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00250,28700.0
+44,M,ASY,135,491,0,Normal,135,N,0.0,Flat,1,Hombre,Asintomatico,Normal,No,Plano,Glucosa Normal,Enfermo,PAC-00251,17800.0
+48,M,ASY,120,260,0,Normal,115,N,2.0,Flat,1,Hombre,Asintomatico,Normal,No,Plano,Glucosa Normal,Enfermo,PAC-00252,31200.0
+61,M,ASY,125,292,0,ST,115,Y,0.0,Up,0,Hombre,Asintomatico,Anomalia ST-T,Si,Ascendente,Glucosa Normal,Sano,PAC-00253,15200.0
+62,M,ATA,140,271,0,Normal,152,N,1.0,Up,0,Hombre,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00254,10600.0
+55,M,ASY,145,248,0,Normal,96,Y,2.0,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00255,23400.0
+53,F,NAP,120,274,0,Normal,130,N,0.0,Up,0,Mujer,Dolor no anginoso,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00256,5200.0
+55,F,ATA,130,394,0,LVH,150,N,0.0,Up,0,Mujer,Angina atipica,Hipertrofia VI,No,Ascendente,Glucosa Normal,Sano,PAC-00257,6900.0
+36,M,NAP,150,160,0,Normal,172,N,0.0,Up,0,Hombre,Dolor no anginoso,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00258,4000.0
+51,F,NAP,150,200,0,Normal,120,N,0.5,Up,0,Mujer,Dolor no anginoso,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00259,7000.0
+55,F,ATA,122,320,0,Normal,155,N,0.0,Up,0,Mujer,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00260,6500.0
+46,M,ATA,140,275,0,Normal,165,Y,0.0,Up,0,Hombre,Angina atipica,Normal,Si,Ascendente,Glucosa Normal,Sano,PAC-00261,5800.0
+54,F,ATA,120,221,0,Normal,138,N,1.0,Up,0,Mujer,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00262,8100.0
+46,M,ASY,120,231,0,Normal,115,Y,0.0,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00263,12400.0
+59,M,ASY,130,126,0,Normal,125,N,0.0,Flat,1,Hombre,Asintomatico,Normal,No,Plano,Glucosa Normal,Enfermo,PAC-00264,20100.0
+47,M,NAP,140,193,0,Normal,145,Y,1.0,Flat,1,Hombre,Dolor no anginoso,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00265,22900.0
+54,M,ATA,160,305,0,Normal,175,N,0.0,Up,0,Hombre,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00266,4600.0
+52,M,ASY,130,298,0,Normal,110,Y,1.0,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00267,34200.0
+34,M,ATA,98,220,0,Normal,150,N,0.0,Up,0,Hombre,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00268,4000.0
+54,M,ASY,130,242,0,Normal,91,Y,1.0,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00269,25900.0
+47,F,NAP,130,235,0,Normal,145,N,2.0,Flat,0,Mujer,Dolor no anginoso,Normal,No,Plano,Glucosa Normal,Sano,PAC-00270,12600.0
+45,M,ASY,120,225,0,Normal,140,N,0.0,Up,0,Hombre,Asintomatico,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00271,9200.0
+32,F,ATA,105,198,0,Normal,165,N,0.0,Up,0,Mujer,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00272,4000.0
+55,M,ASY,140,201,0,Normal,130,Y,3.0,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00273,38500.0
+55,M,NAP,120,220,0,LVH,134,N,0.0,Up,0,Hombre,Dolor no anginoso,Hipertrofia VI,No,Ascendente,Glucosa Normal,Sano,PAC-00274,5800.0
+45,F,ATA,180,295,0,Normal,180,N,0.0,Up,0,Mujer,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00275,4000.0
+59,M,NAP,180,213,0,Normal,100,N,0.0,Up,0,Hombre,Dolor no anginoso,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00276,6700.0
+51,M,NAP,135,160,0,Normal,150,N,2.0,Flat,1,Hombre,Dolor no anginoso,Normal,No,Plano,Glucosa Normal,Enfermo,PAC-00277,25600.0
+52,M,ASY,170,223,0,Normal,126,Y,1.5,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00278,26100.0
+57,F,ASY,180,347,0,ST,126,Y,0.8,Flat,0,Mujer,Asintomatico,Anomalia ST-T,Si,Plano,Glucosa Normal,Sano,PAC-00279,15700.0
+54,F,ATA,130,253,0,ST,155,N,0.0,Up,0,Mujer,Angina atipica,Anomalia ST-T,No,Ascendente,Glucosa Normal,Sano,PAC-00280,5400.0
+60,M,NAP,120,246,0,LVH,135,N,0.0,Up,0,Hombre,Dolor no anginoso,Hipertrofia VI,No,Ascendente,Glucosa Normal,Sano,PAC-00281,6500.0
+49,M,ASY,150,222,0,Normal,122,N,2.0,Flat,1,Hombre,Asintomatico,Normal,No,Plano,Glucosa Normal,Enfermo,PAC-00282,30300.0
+51,F,NAP,130,220,0,Normal,160,Y,2.0,Up,0,Mujer,Dolor no anginoso,Normal,Si,Ascendente,Glucosa Normal,Sano,PAC-00283,15300.0
+55,F,ATA,110,344,0,ST,160,N,0.0,Up,0,Mujer,Angina atipica,Anomalia ST-T,No,Ascendente,Glucosa Normal,Sano,PAC-00284,4700.0
+42,M,ASY,140,358,0,Normal,170,N,0.0,Up,0,Hombre,Asintomatico,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00285,9600.0
+51,F,NAP,110,190,0,Normal,120,N,0.0,Up,0,Mujer,Dolor no anginoso,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00286,4000.0
+59,M,ASY,140,169,0,Normal,140,N,0.0,Up,0,Hombre,Asintomatico,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00287,9100.0
+53,M,ATA,120,181,0,Normal,132,N,0.0,Up,0,Hombre,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00288,6100.0
+48,F,ATA,133,308,0,ST,156,N,2.0,Up,0,Mujer,Angina atipica,Anomalia ST-T,No,Ascendente,Glucosa Normal,Sano,PAC-00289,10400.0
+36,M,ATA,120,166,0,Normal,180,N,0.0,Up,0,Hombre,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00290,4000.0
+48,M,NAP,110,211,0,Normal,138,N,0.0,Up,0,Hombre,Dolor no anginoso,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00291,4800.0
+47,F,ATA,140,257,0,Normal,135,N,1.0,Up,0,Mujer,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00292,6800.0
+53,M,ASY,130,182,0,Normal,148,N,0.0,Up,0,Hombre,Asintomatico,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00293,7800.0
+65,M,ASY,115,237,0,Normal,93,Y,0.0,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00294,29900.0
+32,M,TA,95,237,1,Normal,127,N,0.7,Up,1,Hombre,Angina tipica,Normal,No,Ascendente,Glucosa Alta,Enfermo,PAC-00295,18700.0
+61,M,ASY,105,237,1,Normal,110,Y,1.5,Up,1,Hombre,Asintomatico,Normal,Si,Ascendente,Glucosa Alta,Enfermo,PAC-00296,24400.0
+50,M,ASY,145,237,1,Normal,139,Y,0.7,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Alta,Enfermo,PAC-00297,30000.0
+57,M,ASY,110,237,1,ST,131,Y,1.4,Up,1,Hombre,Asintomatico,Anomalia ST-T,Si,Ascendente,Glucosa Alta,Enfermo,PAC-00298,27800.0
+51,M,ASY,110,237,1,Normal,92,N,0.0,Flat,1,Hombre,Asintomatico,Normal,No,Plano,Glucosa Alta,Enfermo,PAC-00299,25600.0
+47,M,ASY,110,237,1,ST,149,N,2.1,Up,1,Hombre,Asintomatico,Anomalia ST-T,No,Ascendente,Glucosa Alta,Enfermo,PAC-00300,27500.0
+60,M,ASY,160,237,1,Normal,149,N,0.4,Flat,1,Hombre,Asintomatico,Normal,No,Plano,Glucosa Alta,Enfermo,PAC-00301,21800.0
+55,M,ATA,140,237,0,ST,150,N,0.2,Up,0,Hombre,Angina atipica,Anomalia ST-T,No,Ascendente,Glucosa Normal,Sano,PAC-00302,5800.0
+53,M,ASY,125,237,1,Normal,120,N,1.5,Up,1,Hombre,Asintomatico,Normal,No,Ascendente,Glucosa Alta,Enfermo,PAC-00303,27000.0
+62,F,ASY,120,237,1,ST,123,Y,1.7,Down,1,Mujer,Asintomatico,Anomalia ST-T,Si,Descendente,Glucosa Alta,Enfermo,PAC-00304,33200.0
+51,M,ASY,95,237,1,Normal,126,N,2.2,Flat,1,Hombre,Asintomatico,Normal,No,Plano,Glucosa Alta,Enfermo,PAC-00305,28200.0
+51,F,ASY,120,237,1,Normal,127,Y,1.5,Up,1,Mujer,Asintomatico,Normal,Si,Ascendente,Glucosa Alta,Enfermo,PAC-00306,26500.0
+55,M,ASY,115,237,1,Normal,155,N,0.1,Flat,1,Hombre,Asintomatico,Normal,No,Plano,Glucosa Alta,Enfermo,PAC-00307,28100.0
+53,M,ATA,130,237,0,ST,120,N,0.7,Down,0,Hombre,Angina atipica,Anomalia ST-T,No,Descendente,Glucosa Normal,Sano,PAC-00308,8900.0
+58,M,ASY,115,237,1,Normal,138,N,0.5,Up,1,Hombre,Asintomatico,Normal,No,Ascendente,Glucosa Alta,Enfermo,PAC-00309,24200.0
+57,M,ASY,95,237,1,Normal,182,N,0.7,Down,1,Hombre,Asintomatico,Normal,No,Descendente,Glucosa Alta,Enfermo,PAC-00310,24500.0
+65,M,ASY,155,237,0,Normal,154,N,1.0,Up,0,Hombre,Asintomatico,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00311,12100.0
+60,M,ASY,125,237,1,Normal,110,N,0.1,Up,1,Hombre,Asintomatico,Normal,No,Ascendente,Glucosa Alta,Enfermo,PAC-00312,25200.0
+41,M,ASY,125,237,1,Normal,176,N,1.6,Up,1,Hombre,Asintomatico,Normal,No,Ascendente,Glucosa Alta,Enfermo,PAC-00313,26000.0
+34,M,ASY,115,237,1,Normal,154,N,0.2,Up,1,Hombre,Asintomatico,Normal,No,Ascendente,Glucosa Alta,Enfermo,PAC-00314,21900.0
+53,M,ASY,80,237,0,Normal,141,Y,2.0,Down,0,Hombre,Asintomatico,Normal,Si,Descendente,Glucosa Normal,Sano,PAC-00315,21600.0
+74,M,ATA,145,237,1,ST,123,N,1.3,Up,1,Hombre,Angina atipica,Anomalia ST-T,No,Ascendente,Glucosa Alta,Enfermo,PAC-00316,23400.0
+57,M,NAP,105,237,1,Normal,148,N,0.3,Flat,1,Hombre,Dolor no anginoso,Normal,No,Plano,Glucosa Alta,Enfermo,PAC-00317,23500.0
+56,M,ASY,140,237,1,Normal,121,Y,1.8,Up,1,Hombre,Asintomatico,Normal,Si,Ascendente,Glucosa Alta,Enfermo,PAC-00318,26100.0
+61,M,ASY,130,237,1,Normal,77,N,2.5,Flat,1,Hombre,Asintomatico,Normal,No,Plano,Glucosa Alta,Enfermo,PAC-00319,31700.0
+68,M,ASY,145,237,1,Normal,136,N,1.8,Up,1,Hombre,Asintomatico,Normal,No,Ascendente,Glucosa Alta,Enfermo,PAC-00320,26300.0
+59,M,NAP,125,237,1,Normal,175,N,2.6,Flat,1,Hombre,Dolor no anginoso,Normal,No,Plano,Glucosa Alta,Enfermo,PAC-00321,27700.0
+63,M,ASY,100,237,1,Normal,109,N,-0.9,Flat,1,Hombre,Asintomatico,Normal,No,Plano,Glucosa Alta,Enfermo,PAC-00322,24000.0
+38,F,ASY,105,237,1,Normal,166,N,2.8,Up,1,Mujer,Asintomatico,Normal,No,Ascendente,Glucosa Alta,Enfermo,PAC-00323,22800.0
+62,M,ASY,115,237,1,Normal,128,Y,2.5,Down,1,Hombre,Asintomatico,Normal,Si,Descendente,Glucosa Alta,Enfermo,PAC-00324,42600.0
+46,M,ASY,100,237,1,ST,133,N,-2.6,Flat,1,Hombre,Asintomatico,Anomalia ST-T,No,Plano,Glucosa Alta,Enfermo,PAC-00325,13300.0
+42,M,ASY,105,237,1,Normal,128,Y,-1.5,Down,1,Hombre,Asintomatico,Normal,Si,Descendente,Glucosa Alta,Enfermo,PAC-00326,16300.0
+45,M,NAP,110,237,0,Normal,138,N,-0.1,Up,0,Hombre,Dolor no anginoso,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00327,5100.0
+59,M,ASY,125,237,1,Normal,119,Y,0.9,Up,1,Hombre,Asintomatico,Normal,Si,Ascendente,Glucosa Alta,Enfermo,PAC-00328,28600.0
+52,M,ASY,95,237,1,Normal,82,Y,0.8,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Alta,Enfermo,PAC-00329,29500.0
+60,M,ASY,130,237,1,ST,130,Y,1.1,Down,1,Hombre,Asintomatico,Anomalia ST-T,Si,Descendente,Glucosa Alta,Enfermo,PAC-00330,31400.0
+60,M,NAP,115,237,1,Normal,143,N,2.4,Up,1,Hombre,Dolor no anginoso,Normal,No,Ascendente,Glucosa Alta,Enfermo,PAC-00331,24400.0
+56,M,ASY,115,237,1,ST,82,N,-1.0,Up,1,Hombre,Asintomatico,Anomalia ST-T,No,Ascendente,Glucosa Alta,Enfermo,PAC-00332,15900.0
+38,M,NAP,100,237,0,Normal,179,N,-1.1,Up,0,Hombre,Dolor no anginoso,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00333,4000.0
+40,M,ASY,95,237,1,ST,144,N,0.0,Up,1,Hombre,Asintomatico,Anomalia ST-T,No,Ascendente,Glucosa Alta,Enfermo,PAC-00334,17100.0
+51,M,ASY,130,237,1,Normal,170,N,-0.7,Up,1,Hombre,Asintomatico,Normal,No,Ascendente,Glucosa Alta,Enfermo,PAC-00335,21300.0
+62,M,TA,120,237,1,LVH,134,N,-0.8,Flat,1,Hombre,Angina tipica,Hipertrofia VI,No,Plano,Glucosa Alta,Enfermo,PAC-00336,18700.0
+72,M,NAP,160,237,0,LVH,114,N,1.6,Flat,0,Hombre,Dolor no anginoso,Hipertrofia VI,No,Plano,Glucosa Normal,Sano,PAC-00337,12600.0
+63,M,ASY,150,237,1,ST,154,N,3.7,Up,1,Hombre,Asintomatico,Anomalia ST-T,No,Ascendente,Glucosa Alta,Enfermo,PAC-00338,29500.0
+63,M,ASY,140,237,1,LVH,149,N,2.0,Up,1,Hombre,Asintomatico,Hipertrofia VI,No,Ascendente,Glucosa Alta,Enfermo,PAC-00339,28400.0
+64,F,ASY,95,237,1,Normal,145,N,1.1,Down,1,Mujer,Asintomatico,Normal,No,Descendente,Glucosa Alta,Enfermo,PAC-00340,24800.0
+43,M,ASY,100,237,1,Normal,122,N,1.5,Down,1,Hombre,Asintomatico,Normal,No,Descendente,Glucosa Alta,Enfermo,PAC-00341,22500.0
+64,M,ASY,110,237,1,Normal,114,Y,1.3,Down,1,Hombre,Asintomatico,Normal,Si,Descendente,Glucosa Alta,Enfermo,PAC-00342,30700.0
+61,M,ASY,110,237,1,Normal,113,N,1.4,Flat,1,Hombre,Asintomatico,Normal,No,Plano,Glucosa Alta,Enfermo,PAC-00343,28500.0
+52,M,ASY,130,237,1,Normal,120,N,0.0,Flat,1,Hombre,Asintomatico,Normal,No,Plano,Glucosa Alta,Enfermo,PAC-00344,21200.0
+51,M,ASY,120,237,1,Normal,104,N,0.0,Flat,1,Hombre,Asintomatico,Normal,No,Plano,Glucosa Alta,Enfermo,PAC-00345,21200.0
+69,M,ASY,135,237,0,Normal,130,N,0.0,Flat,1,Hombre,Asintomatico,Normal,No,Plano,Glucosa Normal,Enfermo,PAC-00346,25800.0
+59,M,ASY,120,237,0,Normal,115,N,0.0,Flat,1,Hombre,Asintomatico,Normal,No,Plano,Glucosa Normal,Enfermo,PAC-00347,18600.0
+48,M,ASY,115,237,1,Normal,128,N,0.0,Flat,1,Hombre,Asintomatico,Normal,No,Plano,Glucosa Alta,Enfermo,PAC-00348,17700.0
+69,M,ASY,137,237,0,ST,104,Y,1.6,Flat,1,Hombre,Asintomatico,Anomalia ST-T,Si,Plano,Glucosa Normal,Enfermo,PAC-00349,27600.0
+36,M,ASY,110,237,1,Normal,125,Y,1.0,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Alta,Enfermo,PAC-00350,25200.0
+53,M,ASY,120,237,1,Normal,120,N,0.0,Flat,1,Hombre,Asintomatico,Normal,No,Plano,Glucosa Alta,Enfermo,PAC-00351,24100.0
+43,M,ASY,140,237,0,ST,140,Y,0.5,Up,1,Hombre,Asintomatico,Anomalia ST-T,Si,Ascendente,Glucosa Normal,Enfermo,PAC-00352,27600.0
+56,M,ASY,120,237,0,ST,100,Y,-1.0,Down,1,Hombre,Asintomatico,Anomalia ST-T,Si,Descendente,Glucosa Normal,Enfermo,PAC-00353,25900.0
+58,M,ASY,130,237,0,ST,100,Y,1.0,Flat,1,Hombre,Asintomatico,Anomalia ST-T,Si,Plano,Glucosa Normal,Enfermo,PAC-00354,27500.0
+55,M,ASY,120,237,0,ST,92,N,0.3,Up,1,Hombre,Asintomatico,Anomalia ST-T,No,Ascendente,Glucosa Normal,Enfermo,PAC-00355,21500.0
+67,M,TA,145,237,0,LVH,125,N,0.0,Flat,1,Hombre,Angina tipica,Hipertrofia VI,No,Plano,Glucosa Normal,Enfermo,PAC-00356,18500.0
+46,M,ASY,115,237,0,Normal,113,Y,1.5,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00357,27900.0
+53,M,ATA,120,237,0,Normal,95,N,0.0,Flat,1,Hombre,Angina atipica,Normal,No,Plano,Glucosa Normal,Enfermo,PAC-00358,19200.0
+38,M,NAP,115,237,0,Normal,128,Y,0.0,Flat,1,Hombre,Dolor no anginoso,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00359,21500.0
+53,M,NAP,105,237,0,Normal,115,N,0.0,Flat,1,Hombre,Dolor no anginoso,Normal,No,Plano,Glucosa Normal,Enfermo,PAC-00360,17600.0
+62,M,NAP,160,237,0,Normal,72,Y,0.0,Flat,1,Hombre,Dolor no anginoso,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00361,24900.0
+47,M,ASY,160,237,0,Normal,124,Y,0.0,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00362,29900.0
+56,M,NAP,155,237,0,ST,99,N,0.0,Flat,1,Hombre,Dolor no anginoso,Anomalia ST-T,No,Plano,Glucosa Normal,Enfermo,PAC-00363,20100.0
+56,M,ASY,120,237,0,ST,148,N,0.0,Flat,1,Hombre,Asintomatico,Anomalia ST-T,No,Plano,Glucosa Normal,Enfermo,PAC-00364,24800.0
+56,M,NAP,120,237,0,Normal,97,N,0.0,Flat,0,Hombre,Dolor no anginoso,Normal,No,Plano,Glucosa Normal,Sano,PAC-00365,9300.0
+64,F,ASY,200,237,0,Normal,140,Y,1.0,Flat,1,Mujer,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00366,27100.0
+61,M,ASY,150,237,0,Normal,117,Y,2.0,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00367,32100.0
+68,M,ASY,135,237,0,ST,120,Y,0.0,Up,1,Hombre,Asintomatico,Anomalia ST-T,Si,Ascendente,Glucosa Normal,Enfermo,PAC-00368,24400.0
+57,M,ASY,140,237,0,Normal,120,Y,2.0,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00369,31000.0
+63,M,ASY,150,237,0,Normal,86,Y,2.0,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00370,27600.0
+60,M,ASY,135,237,0,Normal,63,Y,0.5,Up,1,Hombre,Asintomatico,Normal,Si,Ascendente,Glucosa Normal,Enfermo,PAC-00371,24700.0
+66,M,ASY,150,237,0,Normal,108,Y,2.0,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00372,34000.0
+63,M,ASY,185,237,0,Normal,98,Y,0.0,Up,1,Hombre,Asintomatico,Normal,Si,Ascendente,Glucosa Normal,Enfermo,PAC-00373,28900.0
+59,M,ASY,135,237,0,Normal,115,Y,1.0,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00374,32300.0
+61,M,ASY,125,237,0,Normal,105,Y,0.0,Down,1,Hombre,Asintomatico,Normal,Si,Descendente,Glucosa Normal,Enfermo,PAC-00375,34400.0
+73,F,NAP,160,237,0,ST,121,N,0.0,Up,1,Mujer,Dolor no anginoso,Anomalia ST-T,No,Ascendente,Glucosa Normal,Enfermo,PAC-00376,17700.0
+47,M,NAP,155,237,0,Normal,118,Y,1.0,Flat,1,Hombre,Dolor no anginoso,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00377,27000.0
+65,M,ASY,160,237,1,ST,122,N,1.2,Flat,1,Hombre,Asintomatico,Anomalia ST-T,No,Plano,Glucosa Alta,Enfermo,PAC-00378,28300.0
+70,M,ASY,140,237,1,Normal,157,Y,2.0,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Alta,Enfermo,PAC-00379,42600.0
+50,M,ASY,120,237,0,ST,156,Y,0.0,Up,1,Hombre,Asintomatico,Anomalia ST-T,Si,Ascendente,Glucosa Normal,Enfermo,PAC-00380,19500.0
+60,M,ASY,160,237,0,ST,99,Y,0.5,Flat,1,Hombre,Asintomatico,Anomalia ST-T,Si,Plano,Glucosa Normal,Enfermo,PAC-00381,23700.0
+50,M,ASY,115,237,0,Normal,120,Y,0.5,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00382,23600.0
+43,M,ASY,115,237,0,Normal,145,Y,2.0,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00383,19700.0
+38,F,ASY,110,237,0,Normal,156,N,0.0,Flat,1,Mujer,Asintomatico,Normal,No,Plano,Glucosa Normal,Enfermo,PAC-00384,19800.0
+54,M,ASY,120,237,0,Normal,155,N,0.0,Flat,1,Hombre,Asintomatico,Normal,No,Plano,Glucosa Normal,Enfermo,PAC-00385,20500.0
+61,M,ASY,150,237,0,Normal,105,Y,0.0,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00386,26600.0
+42,M,ASY,145,237,0,Normal,99,Y,0.0,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00387,25000.0
+53,M,ASY,130,237,0,LVH,135,Y,1.0,Flat,1,Hombre,Asintomatico,Hipertrofia VI,Si,Plano,Glucosa Normal,Enfermo,PAC-00388,35300.0
+55,M,ASY,140,237,0,Normal,83,N,0.0,Flat,1,Hombre,Asintomatico,Normal,No,Plano,Glucosa Normal,Enfermo,PAC-00389,26600.0
+61,M,ASY,160,237,1,ST,145,N,1.0,Flat,1,Hombre,Asintomatico,Anomalia ST-T,No,Plano,Glucosa Alta,Enfermo,PAC-00390,24200.0
+51,M,ASY,140,237,0,Normal,60,N,0.0,Flat,1,Hombre,Asintomatico,Normal,No,Plano,Glucosa Normal,Enfermo,PAC-00391,19700.0
+70,M,ASY,115,237,0,ST,92,Y,0.0,Flat,1,Hombre,Asintomatico,Anomalia ST-T,Si,Plano,Glucosa Normal,Enfermo,PAC-00392,29100.0
+61,M,ASY,130,237,0,LVH,115,N,0.0,Flat,1,Hombre,Asintomatico,Hipertrofia VI,No,Plano,Glucosa Normal,Enfermo,PAC-00393,19300.0
+38,M,ASY,150,237,1,Normal,120,Y,0.7,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Alta,Enfermo,PAC-00394,32200.0
+57,M,ASY,160,237,1,Normal,98,Y,2.0,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Alta,Enfermo,PAC-00395,35900.0
+38,M,ASY,135,237,1,Normal,150,N,0.0,Flat,1,Hombre,Asintomatico,Normal,No,Plano,Glucosa Alta,Enfermo,PAC-00396,20000.0
+62,F,TA,140,237,1,Normal,143,N,0.0,Flat,1,Mujer,Angina tipica,Normal,No,Plano,Glucosa Alta,Enfermo,PAC-00397,15700.0
+58,M,ASY,170,237,1,ST,105,Y,0.0,Flat,1,Hombre,Asintomatico,Anomalia ST-T,Si,Plano,Glucosa Alta,Enfermo,PAC-00398,30900.0
+52,M,ASY,165,237,1,Normal,122,Y,1.0,Up,1,Hombre,Asintomatico,Normal,Si,Ascendente,Glucosa Alta,Enfermo,PAC-00399,24500.0
+61,M,NAP,200,237,1,ST,70,N,0.0,Flat,1,Hombre,Dolor no anginoso,Anomalia ST-T,No,Plano,Glucosa Alta,Enfermo,PAC-00400,24900.0
+50,F,ASY,160,237,1,Normal,110,N,0.0,Flat,1,Mujer,Asintomatico,Normal,No,Plano,Glucosa Alta,Enfermo,PAC-00401,17300.0
+51,M,ASY,130,237,1,ST,163,N,0.0,Flat,1,Hombre,Asintomatico,Anomalia ST-T,No,Plano,Glucosa Alta,Enfermo,PAC-00402,20800.0
+65,M,ASY,145,237,1,ST,67,N,0.7,Flat,1,Hombre,Asintomatico,Anomalia ST-T,No,Plano,Glucosa Alta,Enfermo,PAC-00403,26300.0
+52,M,ASY,135,237,1,Normal,128,Y,2.0,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Alta,Enfermo,PAC-00404,30200.0
+47,M,NAP,110,237,1,Normal,120,Y,0.0,Flat,1,Hombre,Dolor no anginoso,Normal,Si,Plano,Glucosa Alta,Enfermo,PAC-00405,19900.0
+35,M,ASY,120,237,1,Normal,130,Y,1.2,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Alta,Enfermo,PAC-00406,29000.0
+57,M,ASY,140,237,1,Normal,100,Y,0.0,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Alta,Enfermo,PAC-00407,21400.0
+62,M,ASY,115,237,1,Normal,72,Y,-0.5,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Alta,Enfermo,PAC-00408,24400.0
+59,M,ASY,110,237,1,Normal,94,N,0.0,Flat,1,Hombre,Asintomatico,Normal,No,Plano,Glucosa Alta,Enfermo,PAC-00409,24200.0
+53,M,NAP,160,237,1,LVH,122,Y,0.0,Flat,1,Hombre,Dolor no anginoso,Hipertrofia VI,Si,Plano,Glucosa Alta,Enfermo,PAC-00410,23800.0
+62,M,ASY,150,237,1,ST,78,N,2.0,Flat,1,Hombre,Asintomatico,Anomalia ST-T,No,Plano,Glucosa Alta,Enfermo,PAC-00411,32300.0
+54,M,ASY,180,237,1,Normal,150,N,1.5,Flat,1,Hombre,Asintomatico,Normal,No,Plano,Glucosa Alta,Enfermo,PAC-00412,22400.0
+56,M,ASY,125,237,1,Normal,103,Y,1.0,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Alta,Enfermo,PAC-00413,21500.0
+56,M,NAP,125,237,1,Normal,98,N,-2.0,Flat,1,Hombre,Dolor no anginoso,Normal,No,Plano,Glucosa Alta,Enfermo,PAC-00414,18400.0
+54,M,ASY,130,237,1,Normal,110,Y,3.0,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Alta,Enfermo,PAC-00415,34300.0
+66,F,ASY,155,237,1,Normal,90,N,0.0,Flat,1,Mujer,Asintomatico,Normal,No,Plano,Glucosa Alta,Enfermo,PAC-00416,21900.0
+63,M,ASY,140,260,0,ST,112,Y,3.0,Flat,1,Hombre,Asintomatico,Anomalia ST-T,Si,Plano,Glucosa Normal,Enfermo,PAC-00417,41600.0
+44,M,ASY,130,209,0,ST,127,N,0.0,Up,0,Hombre,Asintomatico,Anomalia ST-T,No,Ascendente,Glucosa Normal,Sano,PAC-00418,7600.0
+60,M,ASY,132,218,0,ST,140,Y,1.5,Down,1,Hombre,Asintomatico,Anomalia ST-T,Si,Descendente,Glucosa Normal,Enfermo,PAC-00419,34900.0
+55,M,ASY,142,228,0,ST,149,Y,2.5,Up,1,Hombre,Asintomatico,Anomalia ST-T,Si,Ascendente,Glucosa Normal,Enfermo,PAC-00420,29300.0
+66,M,NAP,110,213,1,LVH,99,Y,1.3,Flat,0,Hombre,Dolor no anginoso,Hipertrofia VI,Si,Plano,Glucosa Alta,Sano,PAC-00421,19500.0
+66,M,NAP,120,237,0,ST,120,N,-0.5,Up,0,Hombre,Dolor no anginoso,Anomalia ST-T,No,Ascendente,Glucosa Normal,Sano,PAC-00422,7400.0
+65,M,ASY,150,236,1,ST,105,Y,0.0,Flat,1,Hombre,Asintomatico,Anomalia ST-T,Si,Plano,Glucosa Alta,Enfermo,PAC-00423,25500.0
+60,M,NAP,180,237,0,ST,140,Y,1.5,Flat,0,Hombre,Dolor no anginoso,Anomalia ST-T,Si,Plano,Glucosa Normal,Sano,PAC-00424,16800.0
+60,M,NAP,120,237,1,Normal,141,Y,2.0,Up,1,Hombre,Dolor no anginoso,Normal,Si,Ascendente,Glucosa Alta,Enfermo,PAC-00425,27900.0
+60,M,ATA,160,267,1,ST,157,N,0.5,Flat,1,Hombre,Angina atipica,Anomalia ST-T,No,Plano,Glucosa Alta,Enfermo,PAC-00426,26700.0
+56,M,ATA,126,166,0,ST,140,N,0.0,Up,0,Hombre,Angina atipica,Anomalia ST-T,No,Ascendente,Glucosa Normal,Sano,PAC-00427,5100.0
+59,M,ASY,140,237,0,ST,117,Y,1.0,Flat,1,Hombre,Asintomatico,Anomalia ST-T,Si,Plano,Glucosa Normal,Enfermo,PAC-00428,31200.0
+62,M,ASY,110,237,0,Normal,120,Y,0.5,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00429,31700.0
+63,M,NAP,133,237,0,LVH,120,Y,1.0,Flat,1,Hombre,Dolor no anginoso,Hipertrofia VI,Si,Plano,Glucosa Normal,Enfermo,PAC-00430,19000.0
+57,M,ASY,128,237,1,ST,148,Y,1.0,Flat,1,Hombre,Asintomatico,Anomalia ST-T,Si,Plano,Glucosa Alta,Enfermo,PAC-00431,23100.0
+62,M,ASY,120,220,0,ST,86,N,0.0,Up,0,Hombre,Asintomatico,Anomalia ST-T,No,Ascendente,Glucosa Normal,Sano,PAC-00432,6700.0
+63,M,ASY,170,177,0,Normal,84,Y,2.5,Down,1,Hombre,Asintomatico,Normal,Si,Descendente,Glucosa Normal,Enfermo,PAC-00433,31200.0
+46,M,ASY,110,236,0,Normal,125,Y,2.0,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00434,32400.0
+63,M,ASY,126,237,0,ST,120,N,1.5,Down,0,Hombre,Asintomatico,Anomalia ST-T,No,Descendente,Glucosa Normal,Sano,PAC-00435,19600.0
+60,M,ASY,152,237,0,ST,118,Y,0.0,Up,0,Hombre,Asintomatico,Anomalia ST-T,Si,Ascendente,Glucosa Normal,Sano,PAC-00436,11500.0
+58,M,ASY,116,237,0,Normal,124,N,1.0,Up,1,Hombre,Asintomatico,Normal,No,Ascendente,Glucosa Normal,Enfermo,PAC-00437,29400.0
+64,M,ASY,120,237,1,ST,106,N,2.0,Flat,1,Hombre,Asintomatico,Anomalia ST-T,No,Plano,Glucosa Alta,Enfermo,PAC-00438,23300.0
+63,M,NAP,130,237,0,ST,111,Y,0.0,Flat,1,Hombre,Dolor no anginoso,Anomalia ST-T,Si,Plano,Glucosa Normal,Enfermo,PAC-00439,17300.0
+74,M,NAP,138,237,0,Normal,116,N,0.2,Up,0,Hombre,Dolor no anginoso,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00440,8500.0
+52,M,NAP,128,237,0,ST,180,N,3.0,Up,1,Hombre,Dolor no anginoso,Anomalia ST-T,No,Ascendente,Glucosa Normal,Enfermo,PAC-00441,26400.0
+69,M,ASY,130,237,1,ST,129,N,1.0,Flat,1,Hombre,Asintomatico,Anomalia ST-T,No,Plano,Glucosa Alta,Enfermo,PAC-00442,27300.0
+51,M,ASY,128,237,1,ST,125,Y,1.2,Flat,1,Hombre,Asintomatico,Anomalia ST-T,Si,Plano,Glucosa Alta,Enfermo,PAC-00443,19200.0
+60,M,ASY,130,186,1,ST,140,Y,0.5,Flat,1,Hombre,Asintomatico,Anomalia ST-T,Si,Plano,Glucosa Alta,Enfermo,PAC-00444,26800.0
+56,M,ASY,120,100,0,Normal,120,Y,1.5,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00445,23500.0
+55,M,NAP,136,228,0,ST,124,Y,1.6,Flat,1,Hombre,Dolor no anginoso,Anomalia ST-T,Si,Plano,Glucosa Normal,Enfermo,PAC-00446,28900.0
+54,M,ASY,130,237,0,ST,117,Y,1.4,Flat,1,Hombre,Asintomatico,Anomalia ST-T,Si,Plano,Glucosa Normal,Enfermo,PAC-00447,30300.0
+77,M,ASY,124,171,0,ST,110,Y,2.0,Up,1,Hombre,Asintomatico,Anomalia ST-T,Si,Ascendente,Glucosa Normal,Enfermo,PAC-00448,26100.0
+63,M,ASY,160,230,1,Normal,105,Y,1.0,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Alta,Enfermo,PAC-00449,26500.0
+55,M,NAP,130,237,0,Normal,155,N,1.5,Flat,1,Hombre,Dolor no anginoso,Normal,No,Plano,Glucosa Normal,Enfermo,PAC-00450,20200.0
+52,M,NAP,122,237,0,Normal,110,Y,2.0,Down,1,Hombre,Dolor no anginoso,Normal,Si,Descendente,Glucosa Normal,Enfermo,PAC-00451,26700.0
+64,M,ASY,144,237,0,ST,122,Y,1.0,Flat,1,Hombre,Asintomatico,Anomalia ST-T,Si,Plano,Glucosa Normal,Enfermo,PAC-00452,33000.0
+60,M,ASY,140,281,0,ST,118,Y,1.5,Flat,1,Hombre,Asintomatico,Anomalia ST-T,Si,Plano,Glucosa Normal,Enfermo,PAC-00453,25300.0
+60,M,ASY,120,237,0,Normal,133,Y,2.0,Up,0,Hombre,Asintomatico,Normal,Si,Ascendente,Glucosa Normal,Sano,PAC-00454,17600.0
+58,M,ASY,136,203,1,Normal,123,Y,1.2,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Alta,Enfermo,PAC-00455,26400.0
+59,M,ASY,154,237,0,ST,131,Y,1.5,Up,0,Hombre,Asintomatico,Anomalia ST-T,Si,Ascendente,Glucosa Normal,Sano,PAC-00456,13200.0
+61,M,NAP,120,237,0,Normal,80,Y,0.0,Flat,1,Hombre,Dolor no anginoso,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00457,22700.0
+40,M,ASY,125,237,1,Normal,165,N,0.0,Flat,1,Hombre,Asintomatico,Normal,No,Plano,Glucosa Alta,Enfermo,PAC-00458,18200.0
+61,M,ASY,134,237,1,ST,86,N,1.5,Flat,1,Hombre,Asintomatico,Anomalia ST-T,No,Plano,Glucosa Alta,Enfermo,PAC-00459,25500.0
+41,M,ASY,104,237,0,ST,111,N,0.0,Up,0,Hombre,Asintomatico,Anomalia ST-T,No,Ascendente,Glucosa Normal,Sano,PAC-00460,5800.0
+57,M,ASY,139,277,1,ST,118,Y,1.9,Flat,1,Hombre,Asintomatico,Anomalia ST-T,Si,Plano,Glucosa Alta,Enfermo,PAC-00461,39200.0
+63,M,ASY,136,237,0,Normal,84,Y,0.0,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00462,26400.0
+59,M,ASY,122,233,0,Normal,117,Y,1.3,Down,1,Hombre,Asintomatico,Normal,Si,Descendente,Glucosa Normal,Enfermo,PAC-00463,26000.0
+51,M,ASY,128,237,0,Normal,107,N,0.0,Up,0,Hombre,Asintomatico,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00464,8600.0
+59,M,NAP,131,237,0,Normal,128,Y,2.0,Down,1,Hombre,Dolor no anginoso,Normal,Si,Descendente,Glucosa Normal,Enfermo,PAC-00465,27300.0
+42,M,NAP,134,240,0,Normal,160,N,0.0,Up,0,Hombre,Dolor no anginoso,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00466,4100.0
+55,M,NAP,120,237,0,ST,125,Y,2.5,Flat,1,Hombre,Dolor no anginoso,Anomalia ST-T,Si,Plano,Glucosa Normal,Enfermo,PAC-00467,31200.0
+63,F,ATA,132,237,0,Normal,130,N,0.1,Up,0,Mujer,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00468,7800.0
+62,M,ASY,152,153,0,ST,97,Y,1.6,Up,1,Hombre,Asintomatico,Anomalia ST-T,Si,Ascendente,Glucosa Normal,Enfermo,PAC-00469,25400.0
+56,M,ATA,124,224,1,Normal,161,N,2.0,Flat,0,Hombre,Angina atipica,Normal,No,Plano,Glucosa Alta,Sano,PAC-00470,12300.0
+53,M,ASY,126,237,0,Normal,106,N,0.0,Flat,1,Hombre,Asintomatico,Normal,No,Plano,Glucosa Normal,Enfermo,PAC-00471,22100.0
+68,M,ASY,138,237,0,Normal,130,Y,3.0,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00472,22500.0
+53,M,ASY,154,237,1,ST,140,Y,1.5,Flat,1,Hombre,Asintomatico,Anomalia ST-T,Si,Plano,Glucosa Alta,Enfermo,PAC-00473,22300.0
+60,M,NAP,141,316,1,ST,122,Y,1.7,Flat,1,Hombre,Dolor no anginoso,Anomalia ST-T,Si,Plano,Glucosa Alta,Enfermo,PAC-00474,32700.0
+62,M,ATA,131,237,0,Normal,130,N,0.1,Up,0,Hombre,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00475,8600.0
+59,M,ASY,178,237,1,LVH,120,Y,0.0,Flat,1,Hombre,Asintomatico,Hipertrofia VI,Si,Plano,Glucosa Alta,Enfermo,PAC-00476,24800.0
+51,M,ASY,132,218,1,LVH,139,N,0.1,Up,0,Hombre,Asintomatico,Hipertrofia VI,No,Ascendente,Glucosa Alta,Sano,PAC-00477,9300.0
+61,M,ASY,110,237,1,Normal,108,Y,2.0,Down,1,Hombre,Asintomatico,Normal,Si,Descendente,Glucosa Alta,Enfermo,PAC-00478,32500.0
+57,M,ASY,130,311,1,ST,148,Y,2.0,Flat,1,Hombre,Asintomatico,Anomalia ST-T,Si,Plano,Glucosa Alta,Enfermo,PAC-00479,44600.0
+56,M,NAP,170,237,0,LVH,123,Y,2.5,Flat,1,Hombre,Dolor no anginoso,Hipertrofia VI,Si,Plano,Glucosa Normal,Enfermo,PAC-00480,33500.0
+58,M,ATA,126,237,1,Normal,110,Y,2.0,Flat,1,Hombre,Angina atipica,Normal,Si,Plano,Glucosa Alta,Enfermo,PAC-00481,27100.0
+69,M,NAP,140,237,1,ST,118,N,2.5,Down,1,Hombre,Dolor no anginoso,Anomalia ST-T,No,Descendente,Glucosa Alta,Enfermo,PAC-00482,24200.0
+67,M,TA,142,270,1,Normal,125,N,2.5,Up,1,Hombre,Angina tipica,Normal,No,Ascendente,Glucosa Alta,Enfermo,PAC-00483,19300.0
+58,M,ASY,120,237,0,LVH,106,Y,1.5,Down,1,Hombre,Asintomatico,Hipertrofia VI,Si,Descendente,Glucosa Normal,Enfermo,PAC-00484,30300.0
+65,M,ASY,134,237,0,Normal,112,Y,1.1,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00485,25900.0
+63,M,ATA,139,217,1,ST,128,Y,1.2,Flat,1,Hombre,Angina atipica,Anomalia ST-T,Si,Plano,Glucosa Alta,Enfermo,PAC-00486,20700.0
+55,M,ATA,110,214,1,ST,180,N,0.4,Up,0,Hombre,Angina atipica,Anomalia ST-T,No,Ascendente,Glucosa Alta,Sano,PAC-00487,6100.0
+57,M,ASY,140,214,0,ST,144,Y,2.0,Flat,1,Hombre,Asintomatico,Anomalia ST-T,Si,Plano,Glucosa Normal,Enfermo,PAC-00488,25600.0
+65,M,TA,140,252,0,Normal,135,N,0.3,Up,0,Hombre,Angina tipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00489,9700.0
+54,M,ASY,136,220,0,Normal,140,Y,3.0,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00490,37000.0
+72,M,NAP,120,214,0,Normal,102,Y,1.0,Flat,1,Hombre,Dolor no anginoso,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00491,26800.0
+75,M,ASY,170,203,1,ST,108,N,0.0,Flat,1,Hombre,Asintomatico,Anomalia ST-T,No,Plano,Glucosa Alta,Enfermo,PAC-00492,31400.0
+49,M,TA,130,237,0,ST,145,N,3.0,Flat,1,Hombre,Angina tipica,Anomalia ST-T,No,Plano,Glucosa Normal,Enfermo,PAC-00493,27400.0
+51,M,NAP,137,339,0,Normal,127,Y,1.7,Flat,1,Hombre,Dolor no anginoso,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00494,22700.0
+60,M,ASY,142,216,0,Normal,110,Y,2.5,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00495,39500.0
+64,F,ASY,142,276,0,Normal,140,Y,1.0,Flat,1,Mujer,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00496,31200.0
+58,M,ASY,132,458,1,Normal,69,N,1.0,Down,0,Hombre,Asintomatico,Normal,No,Descendente,Glucosa Alta,Sano,PAC-00497,12000.0
+61,M,ASY,146,241,0,Normal,148,Y,3.0,Down,1,Hombre,Asintomatico,Normal,Si,Descendente,Glucosa Normal,Enfermo,PAC-00498,32600.0
+67,M,ASY,160,384,1,ST,130,Y,0.0,Flat,1,Hombre,Asintomatico,Anomalia ST-T,Si,Plano,Glucosa Alta,Enfermo,PAC-00499,23200.0
+62,M,ASY,135,297,0,Normal,130,Y,1.0,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00500,22700.0
+65,M,ASY,136,248,0,Normal,140,Y,4.0,Down,1,Hombre,Asintomatico,Normal,Si,Descendente,Glucosa Normal,Enfermo,PAC-00501,41600.0
+63,M,ASY,130,308,0,Normal,138,Y,2.0,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00502,40200.0
+69,M,ASY,140,208,0,ST,140,Y,2.0,Flat,1,Hombre,Asintomatico,Anomalia ST-T,Si,Plano,Glucosa Normal,Enfermo,PAC-00503,25300.0
+51,M,ASY,132,227,1,ST,138,N,0.2,Up,0,Hombre,Asintomatico,Anomalia ST-T,No,Ascendente,Glucosa Alta,Sano,PAC-00504,9600.0
+62,M,ASY,158,210,1,Normal,112,Y,3.0,Down,1,Hombre,Asintomatico,Normal,Si,Descendente,Glucosa Alta,Enfermo,PAC-00505,30400.0
+55,M,NAP,136,245,1,ST,131,Y,1.2,Flat,1,Hombre,Dolor no anginoso,Anomalia ST-T,Si,Plano,Glucosa Alta,Enfermo,PAC-00506,23500.0
+75,M,ASY,136,225,0,Normal,112,Y,3.0,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00507,32100.0
+40,M,NAP,106,240,0,Normal,80,Y,0.0,Up,0,Hombre,Dolor no anginoso,Normal,Si,Ascendente,Glucosa Normal,Sano,PAC-00508,5200.0
+67,M,ASY,120,237,1,Normal,150,N,1.5,Down,1,Hombre,Asintomatico,Normal,No,Descendente,Glucosa Alta,Enfermo,PAC-00509,28700.0
+58,M,ASY,110,198,0,Normal,110,N,0.0,Flat,1,Hombre,Asintomatico,Normal,No,Plano,Glucosa Normal,Enfermo,PAC-00510,20700.0
+60,M,ASY,136,195,0,Normal,126,N,0.3,Up,0,Hombre,Asintomatico,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00511,10600.0
+63,M,ASY,160,267,1,ST,88,Y,2.0,Flat,1,Hombre,Asintomatico,Anomalia ST-T,Si,Plano,Glucosa Alta,Enfermo,PAC-00512,31000.0
+35,M,NAP,123,161,0,ST,153,N,-0.1,Up,0,Hombre,Dolor no anginoso,Anomalia ST-T,No,Ascendente,Glucosa Normal,Sano,PAC-00513,4000.0
+62,M,TA,112,258,0,ST,150,Y,1.3,Flat,1,Hombre,Angina tipica,Anomalia ST-T,Si,Plano,Glucosa Normal,Enfermo,PAC-00514,22800.0
+43,M,ASY,122,237,0,Normal,120,N,0.5,Up,1,Hombre,Asintomatico,Normal,No,Ascendente,Glucosa Normal,Enfermo,PAC-00515,18800.0
+63,M,NAP,130,237,1,ST,160,N,3.0,Flat,0,Hombre,Dolor no anginoso,Anomalia ST-T,No,Plano,Glucosa Alta,Sano,PAC-00516,18700.0
+68,M,NAP,150,195,1,Normal,132,N,0.0,Flat,1,Hombre,Dolor no anginoso,Normal,No,Plano,Glucosa Alta,Enfermo,PAC-00517,23500.0
+65,M,ASY,150,235,0,Normal,120,Y,1.5,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00518,25800.0
+48,M,NAP,102,237,1,ST,110,Y,1.0,Down,1,Hombre,Dolor no anginoso,Anomalia ST-T,Si,Descendente,Glucosa Alta,Enfermo,PAC-00519,24300.0
+63,M,ASY,96,305,0,ST,121,Y,1.0,Up,1,Hombre,Asintomatico,Anomalia ST-T,Si,Ascendente,Glucosa Normal,Enfermo,PAC-00520,29200.0
+64,M,ASY,130,223,0,ST,128,N,0.5,Flat,0,Hombre,Asintomatico,Anomalia ST-T,No,Plano,Glucosa Normal,Sano,PAC-00521,10200.0
+61,M,ASY,120,282,0,ST,135,Y,4.0,Down,1,Hombre,Asintomatico,Anomalia ST-T,Si,Descendente,Glucosa Normal,Enfermo,PAC-00522,39000.0
+50,M,ASY,144,349,0,LVH,120,Y,1.0,Up,1,Hombre,Asintomatico,Hipertrofia VI,Si,Ascendente,Glucosa Normal,Enfermo,PAC-00523,22200.0
+59,M,ASY,124,160,0,Normal,117,Y,1.0,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00524,30700.0
+55,M,ASY,150,160,0,ST,150,N,0.0,Up,0,Hombre,Asintomatico,Anomalia ST-T,No,Ascendente,Glucosa Normal,Sano,PAC-00525,7800.0
+45,M,NAP,130,236,0,Normal,144,N,0.1,Up,0,Hombre,Dolor no anginoso,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00526,4000.0
+65,M,ASY,144,312,0,LVH,113,Y,1.7,Flat,1,Hombre,Asintomatico,Hipertrofia VI,Si,Plano,Glucosa Normal,Enfermo,PAC-00527,23200.0
+61,M,ATA,139,283,0,Normal,135,N,0.3,Up,0,Hombre,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00528,7300.0
+49,M,NAP,131,142,0,Normal,127,Y,1.5,Flat,1,Hombre,Dolor no anginoso,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00529,26300.0
+72,M,ASY,143,211,0,Normal,109,Y,1.4,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00530,26700.0
+50,M,ASY,133,218,0,Normal,128,Y,1.1,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00531,30100.0
+64,M,ASY,143,306,1,ST,115,Y,1.8,Flat,1,Hombre,Asintomatico,Anomalia ST-T,Si,Plano,Glucosa Alta,Enfermo,PAC-00532,23200.0
+55,M,ASY,116,186,1,ST,102,N,0.0,Flat,1,Hombre,Asintomatico,Anomalia ST-T,No,Plano,Glucosa Alta,Enfermo,PAC-00533,23100.0
+63,M,ASY,110,252,0,ST,140,Y,2.0,Flat,1,Hombre,Asintomatico,Anomalia ST-T,Si,Plano,Glucosa Normal,Enfermo,PAC-00534,25600.0
+59,M,ASY,125,222,0,Normal,135,Y,2.5,Down,1,Hombre,Asintomatico,Normal,Si,Descendente,Glucosa Normal,Enfermo,PAC-00535,28900.0
+56,M,ASY,130,237,0,LVH,122,Y,1.0,Flat,1,Hombre,Asintomatico,Hipertrofia VI,Si,Plano,Glucosa Normal,Enfermo,PAC-00536,28100.0
+62,M,NAP,133,237,1,ST,119,Y,1.2,Flat,1,Hombre,Dolor no anginoso,Anomalia ST-T,Si,Plano,Glucosa Alta,Enfermo,PAC-00537,22800.0
+74,M,ASY,150,258,1,ST,130,Y,4.0,Down,1,Hombre,Asintomatico,Anomalia ST-T,Si,Descendente,Glucosa Alta,Enfermo,PAC-00538,35400.0
+54,M,ASY,130,202,1,Normal,112,Y,2.0,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Alta,Enfermo,PAC-00539,34700.0
+57,M,ASY,110,197,0,LVH,100,N,0.0,Up,0,Hombre,Asintomatico,Hipertrofia VI,No,Ascendente,Glucosa Normal,Sano,PAC-00540,8300.0
+62,M,NAP,138,204,0,ST,122,Y,1.2,Flat,1,Hombre,Dolor no anginoso,Anomalia ST-T,Si,Plano,Glucosa Normal,Enfermo,PAC-00541,29400.0
+76,M,NAP,104,113,0,LVH,120,N,3.5,Down,1,Hombre,Dolor no anginoso,Hipertrofia VI,No,Descendente,Glucosa Normal,Enfermo,PAC-00542,26200.0
+54,F,ASY,138,274,0,Normal,105,Y,1.5,Flat,1,Mujer,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00543,31200.0
+70,M,ASY,170,192,0,ST,129,Y,3.0,Down,1,Hombre,Asintomatico,Anomalia ST-T,Si,Descendente,Glucosa Normal,Enfermo,PAC-00544,42100.0
+61,F,ATA,140,298,1,Normal,120,Y,0.0,Up,0,Mujer,Angina atipica,Normal,Si,Ascendente,Glucosa Alta,Sano,PAC-00545,5400.0
+48,M,ASY,132,272,0,ST,139,N,0.2,Up,0,Hombre,Asintomatico,Anomalia ST-T,No,Ascendente,Glucosa Normal,Sano,PAC-00546,7400.0
+48,M,NAP,132,220,1,ST,162,N,0.0,Flat,1,Hombre,Dolor no anginoso,Anomalia ST-T,No,Plano,Glucosa Alta,Enfermo,PAC-00547,21100.0
+61,M,TA,142,200,1,ST,100,N,1.5,Down,1,Hombre,Angina tipica,Anomalia ST-T,No,Descendente,Glucosa Alta,Enfermo,PAC-00548,24000.0
+66,M,ASY,112,261,0,Normal,140,N,1.5,Up,1,Hombre,Asintomatico,Normal,No,Ascendente,Glucosa Normal,Enfermo,PAC-00549,27300.0
+68,M,TA,139,181,1,ST,135,N,0.2,Up,0,Hombre,Angina tipica,Anomalia ST-T,No,Ascendente,Glucosa Alta,Sano,PAC-00550,7100.0
+55,M,ASY,172,260,0,Normal,73,N,2.0,Flat,1,Hombre,Asintomatico,Normal,No,Plano,Glucosa Normal,Enfermo,PAC-00551,28700.0
+62,M,NAP,120,220,0,LVH,86,N,0.0,Up,0,Hombre,Dolor no anginoso,Hipertrofia VI,No,Ascendente,Glucosa Normal,Sano,PAC-00552,6500.0
+71,M,NAP,144,221,0,Normal,108,Y,1.8,Flat,1,Hombre,Dolor no anginoso,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00553,33800.0
+74,M,TA,145,216,1,Normal,116,Y,1.8,Flat,1,Hombre,Angina tipica,Normal,Si,Plano,Glucosa Alta,Enfermo,PAC-00554,30200.0
+53,M,NAP,155,175,1,ST,160,N,0.3,Up,0,Hombre,Dolor no anginoso,Anomalia ST-T,No,Ascendente,Glucosa Alta,Sano,PAC-00555,6600.0
+58,M,NAP,150,219,0,ST,118,Y,0.0,Flat,1,Hombre,Dolor no anginoso,Anomalia ST-T,Si,Plano,Glucosa Normal,Enfermo,PAC-00556,21300.0
+75,M,ASY,160,310,1,Normal,112,Y,2.0,Down,0,Hombre,Asintomatico,Normal,Si,Descendente,Glucosa Alta,Sano,PAC-00557,19200.0
+56,M,NAP,137,208,1,ST,122,Y,1.8,Flat,1,Hombre,Dolor no anginoso,Anomalia ST-T,Si,Plano,Glucosa Alta,Enfermo,PAC-00558,25200.0
+58,M,NAP,137,232,0,ST,124,Y,1.4,Flat,1,Hombre,Dolor no anginoso,Anomalia ST-T,Si,Plano,Glucosa Normal,Enfermo,PAC-00559,27700.0
+64,M,ASY,134,273,0,Normal,102,Y,4.0,Down,1,Hombre,Asintomatico,Normal,Si,Descendente,Glucosa Normal,Enfermo,PAC-00560,34100.0
+54,M,NAP,133,203,0,ST,137,N,0.2,Up,0,Hombre,Dolor no anginoso,Anomalia ST-T,No,Ascendente,Glucosa Normal,Sano,PAC-00561,6400.0
+54,M,ATA,132,182,0,ST,141,N,0.1,Up,0,Hombre,Angina atipica,Anomalia ST-T,No,Ascendente,Glucosa Normal,Sano,PAC-00562,7800.0
+59,M,ASY,140,274,0,Normal,154,Y,2.0,Flat,0,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Sano,PAC-00563,21200.0
+55,M,ASY,135,204,1,ST,126,Y,1.1,Flat,1,Hombre,Asintomatico,Anomalia ST-T,Si,Plano,Glucosa Alta,Enfermo,PAC-00564,26700.0
+57,M,ASY,144,270,1,ST,160,Y,2.0,Flat,1,Hombre,Asintomatico,Anomalia ST-T,Si,Plano,Glucosa Alta,Enfermo,PAC-00565,36000.0
+61,M,ASY,141,292,0,ST,115,Y,1.7,Flat,1,Hombre,Asintomatico,Anomalia ST-T,Si,Plano,Glucosa Normal,Enfermo,PAC-00566,28400.0
+41,M,ASY,150,171,0,Normal,128,Y,1.5,Flat,0,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Sano,PAC-00567,10700.0
+71,M,ASY,130,221,0,ST,115,Y,0.0,Flat,1,Hombre,Asintomatico,Anomalia ST-T,Si,Plano,Glucosa Normal,Enfermo,PAC-00568,23100.0
+38,M,ASY,110,289,0,Normal,105,Y,1.5,Down,1,Hombre,Asintomatico,Normal,Si,Descendente,Glucosa Normal,Enfermo,PAC-00569,19600.0
+55,M,ASY,158,217,0,Normal,110,Y,2.5,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00570,29900.0
+56,M,ASY,128,223,0,ST,119,Y,2.0,Down,1,Hombre,Asintomatico,Anomalia ST-T,Si,Descendente,Glucosa Normal,Enfermo,PAC-00571,30500.0
+69,M,ASY,140,110,1,Normal,109,Y,1.5,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Alta,Enfermo,PAC-00572,38500.0
+64,M,ASY,150,193,0,ST,135,Y,0.5,Flat,1,Hombre,Asintomatico,Anomalia ST-T,Si,Plano,Glucosa Normal,Enfermo,PAC-00573,29000.0
+72,M,ASY,160,123,1,LVH,130,N,1.5,Flat,1,Hombre,Asintomatico,Hipertrofia VI,No,Plano,Glucosa Alta,Enfermo,PAC-00574,28100.0
+69,M,ASY,142,210,1,ST,112,Y,1.5,Flat,1,Hombre,Asintomatico,Anomalia ST-T,Si,Plano,Glucosa Alta,Enfermo,PAC-00575,34600.0
+56,M,ASY,137,282,1,Normal,126,Y,1.2,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Alta,Enfermo,PAC-00576,19000.0
+62,M,ASY,139,170,0,ST,120,Y,3.0,Flat,1,Hombre,Asintomatico,Anomalia ST-T,Si,Plano,Glucosa Normal,Enfermo,PAC-00577,34800.0
+67,M,ASY,146,369,0,Normal,110,Y,1.9,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00578,35100.0
+57,M,ASY,156,173,0,LVH,119,Y,3.0,Down,1,Hombre,Asintomatico,Hipertrofia VI,Si,Descendente,Glucosa Normal,Enfermo,PAC-00579,25700.0
+69,M,ASY,145,289,1,ST,110,Y,1.8,Flat,1,Hombre,Asintomatico,Anomalia ST-T,Si,Plano,Glucosa Alta,Enfermo,PAC-00580,36900.0
+51,M,ASY,131,152,1,LVH,130,Y,1.0,Flat,1,Hombre,Asintomatico,Hipertrofia VI,Si,Plano,Glucosa Alta,Enfermo,PAC-00581,28700.0
+48,M,ASY,140,208,0,Normal,159,Y,1.5,Up,1,Hombre,Asintomatico,Normal,Si,Ascendente,Glucosa Normal,Enfermo,PAC-00582,24100.0
+69,M,ASY,122,216,1,LVH,84,Y,0.0,Flat,1,Hombre,Asintomatico,Hipertrofia VI,Si,Plano,Glucosa Alta,Enfermo,PAC-00583,29500.0
+69,M,NAP,142,271,0,LVH,126,N,0.3,Up,0,Hombre,Dolor no anginoso,Hipertrofia VI,No,Ascendente,Glucosa Normal,Sano,PAC-00584,11000.0
+64,M,ASY,141,244,1,ST,116,Y,1.5,Flat,1,Hombre,Asintomatico,Anomalia ST-T,Si,Plano,Glucosa Alta,Enfermo,PAC-00585,31000.0
+57,M,ATA,180,285,1,ST,120,N,0.8,Flat,1,Hombre,Angina atipica,Anomalia ST-T,No,Plano,Glucosa Alta,Enfermo,PAC-00586,23400.0
+53,M,ASY,124,243,0,Normal,122,Y,2.0,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00587,28000.0
+37,M,NAP,118,240,0,LVH,165,N,1.0,Flat,0,Hombre,Dolor no anginoso,Hipertrofia VI,No,Plano,Glucosa Normal,Sano,PAC-00588,7900.0
+67,M,ASY,140,219,0,ST,122,Y,2.0,Flat,1,Hombre,Asintomatico,Anomalia ST-T,Si,Plano,Glucosa Normal,Enfermo,PAC-00589,35700.0
+74,M,NAP,140,237,1,Normal,94,N,0.0,Flat,1,Hombre,Dolor no anginoso,Normal,No,Plano,Glucosa Alta,Enfermo,PAC-00590,19700.0
+63,M,ATA,136,165,0,ST,133,N,0.2,Up,0,Hombre,Angina atipica,Anomalia ST-T,No,Ascendente,Glucosa Normal,Sano,PAC-00591,7300.0
+58,M,ASY,100,213,0,ST,110,N,0.0,Up,0,Hombre,Asintomatico,Anomalia ST-T,No,Ascendente,Glucosa Normal,Sano,PAC-00592,8500.0
+61,M,ASY,190,287,1,LVH,150,Y,2.0,Down,1,Hombre,Asintomatico,Hipertrofia VI,Si,Descendente,Glucosa Alta,Enfermo,PAC-00593,33200.0
+64,M,ASY,130,258,1,LVH,130,N,0.0,Flat,1,Hombre,Asintomatico,Hipertrofia VI,No,Plano,Glucosa Alta,Enfermo,PAC-00594,25600.0
+58,M,ASY,160,256,1,LVH,113,Y,1.0,Up,1,Hombre,Asintomatico,Hipertrofia VI,Si,Ascendente,Glucosa Alta,Enfermo,PAC-00595,29700.0
+60,M,ASY,130,186,1,LVH,140,Y,0.5,Flat,1,Hombre,Asintomatico,Hipertrofia VI,Si,Plano,Glucosa Alta,Enfermo,PAC-00596,25100.0
+57,M,ASY,122,264,0,LVH,100,N,0.0,Flat,1,Hombre,Asintomatico,Hipertrofia VI,No,Plano,Glucosa Normal,Enfermo,PAC-00597,22600.0
+55,M,NAP,133,185,0,ST,136,N,0.2,Up,0,Hombre,Dolor no anginoso,Anomalia ST-T,No,Ascendente,Glucosa Normal,Sano,PAC-00598,5400.0
+55,M,ASY,120,226,0,LVH,127,Y,1.7,Down,1,Hombre,Asintomatico,Hipertrofia VI,Si,Descendente,Glucosa Normal,Enfermo,PAC-00599,27600.0
+56,M,ASY,130,203,1,Normal,98,N,1.5,Flat,1,Hombre,Asintomatico,Normal,No,Plano,Glucosa Alta,Enfermo,PAC-00600,28700.0
+57,M,ASY,130,207,0,ST,96,Y,1.0,Flat,0,Hombre,Asintomatico,Anomalia ST-T,Si,Plano,Glucosa Normal,Sano,PAC-00601,17900.0
+61,M,NAP,140,284,0,Normal,123,Y,1.3,Flat,1,Hombre,Dolor no anginoso,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00602,22600.0
+61,M,NAP,120,337,0,Normal,98,Y,0.0,Flat,1,Hombre,Dolor no anginoso,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00603,26000.0
+74,M,ASY,155,310,0,Normal,112,Y,1.5,Down,1,Hombre,Asintomatico,Normal,Si,Descendente,Glucosa Normal,Enfermo,PAC-00604,37700.0
+68,M,NAP,134,254,1,Normal,151,Y,0.0,Up,0,Hombre,Dolor no anginoso,Normal,Si,Ascendente,Glucosa Alta,Sano,PAC-00605,9900.0
+51,F,ASY,114,258,1,LVH,96,N,1.0,Up,0,Mujer,Asintomatico,Hipertrofia VI,No,Ascendente,Glucosa Alta,Sano,PAC-00606,13900.0
+62,M,ASY,160,254,1,ST,108,Y,3.0,Flat,1,Hombre,Asintomatico,Anomalia ST-T,Si,Plano,Glucosa Alta,Enfermo,PAC-00607,29700.0
+53,M,ASY,144,300,1,ST,128,Y,1.5,Flat,1,Hombre,Asintomatico,Anomalia ST-T,Si,Plano,Glucosa Alta,Enfermo,PAC-00608,23400.0
+62,M,ASY,158,170,0,ST,138,Y,0.0,Flat,1,Hombre,Asintomatico,Anomalia ST-T,Si,Plano,Glucosa Normal,Enfermo,PAC-00609,19200.0
+46,M,ASY,134,310,0,Normal,126,N,0.0,Flat,1,Hombre,Asintomatico,Normal,No,Plano,Glucosa Normal,Enfermo,PAC-00610,27200.0
+54,F,ASY,127,333,1,ST,154,N,0.0,Flat,1,Mujer,Asintomatico,Anomalia ST-T,No,Plano,Glucosa Alta,Enfermo,PAC-00611,25500.0
+62,M,TA,135,139,0,ST,137,N,0.2,Up,0,Hombre,Angina tipica,Anomalia ST-T,No,Ascendente,Glucosa Normal,Sano,PAC-00612,7100.0
+55,M,ASY,122,223,1,ST,100,N,0.0,Flat,1,Hombre,Asintomatico,Anomalia ST-T,No,Plano,Glucosa Alta,Enfermo,PAC-00613,24300.0
+58,M,ASY,140,385,1,LVH,135,N,0.3,Up,0,Hombre,Asintomatico,Hipertrofia VI,No,Ascendente,Glucosa Alta,Sano,PAC-00614,8200.0
+62,M,ATA,120,254,0,LVH,93,Y,0.0,Flat,1,Hombre,Angina atipica,Hipertrofia VI,Si,Plano,Glucosa Normal,Enfermo,PAC-00615,31600.0
+70,M,ASY,130,322,0,LVH,109,N,2.4,Flat,1,Hombre,Asintomatico,Hipertrofia VI,No,Plano,Glucosa Normal,Enfermo,PAC-00616,31700.0
+67,F,NAP,115,564,0,LVH,160,N,1.6,Flat,0,Mujer,Dolor no anginoso,Hipertrofia VI,No,Plano,Glucosa Normal,Sano,PAC-00617,14000.0
+57,M,ATA,124,261,0,Normal,141,N,0.3,Up,1,Hombre,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Enfermo,PAC-00618,20800.0
+64,M,ASY,128,263,0,Normal,105,Y,0.2,Flat,0,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Sano,PAC-00619,16000.0
+74,F,ATA,120,269,0,LVH,121,Y,0.2,Up,0,Mujer,Angina atipica,Hipertrofia VI,Si,Ascendente,Glucosa Normal,Sano,PAC-00620,10900.0
+65,M,ASY,120,177,0,Normal,140,N,0.4,Up,0,Hombre,Asintomatico,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00621,9700.0
+56,M,NAP,130,256,1,LVH,142,Y,0.6,Flat,1,Hombre,Dolor no anginoso,Hipertrofia VI,Si,Plano,Glucosa Alta,Enfermo,PAC-00622,25600.0
+59,M,ASY,110,239,0,LVH,142,Y,1.2,Flat,1,Hombre,Asintomatico,Hipertrofia VI,Si,Plano,Glucosa Normal,Enfermo,PAC-00623,36900.0
+60,M,ASY,140,293,0,LVH,170,N,1.2,Flat,1,Hombre,Asintomatico,Hipertrofia VI,No,Plano,Glucosa Normal,Enfermo,PAC-00624,32300.0
+63,F,ASY,150,407,0,LVH,154,N,4.0,Flat,1,Mujer,Asintomatico,Hipertrofia VI,No,Plano,Glucosa Normal,Enfermo,PAC-00625,42400.0
+59,M,ASY,135,234,0,Normal,161,N,0.5,Flat,0,Hombre,Asintomatico,Normal,No,Plano,Glucosa Normal,Sano,PAC-00626,12000.0
+53,M,ASY,142,226,0,LVH,111,Y,0.0,Up,0,Hombre,Asintomatico,Hipertrofia VI,Si,Ascendente,Glucosa Normal,Sano,PAC-00627,9000.0
+44,M,NAP,140,235,0,LVH,180,N,0.0,Up,0,Hombre,Dolor no anginoso,Hipertrofia VI,No,Ascendente,Glucosa Normal,Sano,PAC-00628,4400.0
+61,M,TA,134,234,0,Normal,145,N,2.6,Flat,1,Hombre,Angina tipica,Normal,No,Plano,Glucosa Normal,Enfermo,PAC-00629,27800.0
+57,F,ASY,128,303,0,LVH,159,N,0.0,Up,0,Mujer,Asintomatico,Hipertrofia VI,No,Ascendente,Glucosa Normal,Sano,PAC-00630,10500.0
+71,F,ASY,112,149,0,Normal,125,N,1.6,Flat,0,Mujer,Asintomatico,Normal,No,Plano,Glucosa Normal,Sano,PAC-00631,12800.0
+46,M,ASY,140,311,0,Normal,120,Y,1.8,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00632,35300.0
+53,M,ASY,140,203,1,LVH,155,Y,3.1,Down,1,Hombre,Asintomatico,Hipertrofia VI,Si,Descendente,Glucosa Alta,Enfermo,PAC-00633,32000.0
+64,M,TA,110,211,0,LVH,144,Y,1.8,Flat,0,Hombre,Angina tipica,Hipertrofia VI,Si,Plano,Glucosa Normal,Sano,PAC-00634,14900.0
+40,M,TA,140,199,0,Normal,178,Y,1.4,Up,0,Hombre,Angina tipica,Normal,Si,Ascendente,Glucosa Normal,Sano,PAC-00635,8100.0
+67,M,ASY,120,229,0,LVH,129,Y,2.6,Flat,1,Hombre,Asintomatico,Hipertrofia VI,Si,Plano,Glucosa Normal,Enfermo,PAC-00636,25000.0
+48,M,ATA,130,245,0,LVH,180,N,0.2,Flat,0,Hombre,Angina atipica,Hipertrofia VI,No,Plano,Glucosa Normal,Sano,PAC-00637,8900.0
+43,M,ASY,115,303,0,Normal,181,N,1.2,Flat,0,Hombre,Asintomatico,Normal,No,Plano,Glucosa Normal,Sano,PAC-00638,13000.0
+47,M,ASY,112,204,0,Normal,143,N,0.1,Up,0,Hombre,Asintomatico,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00639,6500.0
+54,F,ATA,132,288,1,LVH,159,Y,0.0,Up,0,Mujer,Angina atipica,Hipertrofia VI,Si,Ascendente,Glucosa Alta,Sano,PAC-00640,6200.0
+48,F,NAP,130,275,0,Normal,139,N,0.2,Up,0,Mujer,Dolor no anginoso,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00641,5200.0
+46,F,ASY,138,243,0,LVH,152,Y,0.0,Flat,0,Mujer,Asintomatico,Hipertrofia VI,Si,Plano,Glucosa Normal,Sano,PAC-00642,15300.0
+51,F,NAP,120,295,0,LVH,157,N,0.6,Up,0,Mujer,Dolor no anginoso,Hipertrofia VI,No,Ascendente,Glucosa Normal,Sano,PAC-00643,6600.0
+58,M,NAP,112,230,0,LVH,165,N,2.5,Flat,1,Hombre,Dolor no anginoso,Hipertrofia VI,No,Plano,Glucosa Normal,Enfermo,PAC-00644,20800.0
+71,F,NAP,110,265,1,LVH,130,N,0.0,Up,0,Mujer,Dolor no anginoso,Hipertrofia VI,No,Ascendente,Glucosa Alta,Sano,PAC-00645,7400.0
+57,M,NAP,128,229,0,LVH,150,N,0.4,Flat,1,Hombre,Dolor no anginoso,Hipertrofia VI,No,Plano,Glucosa Normal,Enfermo,PAC-00646,20700.0
+66,M,ASY,160,228,0,LVH,138,N,2.3,Up,0,Hombre,Asintomatico,Hipertrofia VI,No,Ascendente,Glucosa Normal,Sano,PAC-00647,9500.0
+37,F,NAP,120,215,0,Normal,170,N,0.0,Up,0,Mujer,Dolor no anginoso,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00648,4000.0
+59,M,ASY,170,326,0,LVH,140,Y,3.4,Down,1,Hombre,Asintomatico,Hipertrofia VI,Si,Descendente,Glucosa Normal,Enfermo,PAC-00649,33100.0
+50,M,ASY,144,200,0,LVH,126,Y,0.9,Flat,1,Hombre,Asintomatico,Hipertrofia VI,Si,Plano,Glucosa Normal,Enfermo,PAC-00650,29800.0
+48,M,ASY,130,256,1,LVH,150,Y,0.0,Up,1,Hombre,Asintomatico,Hipertrofia VI,Si,Ascendente,Glucosa Alta,Enfermo,PAC-00651,28100.0
+61,M,ASY,140,207,0,LVH,138,Y,1.9,Up,1,Hombre,Asintomatico,Hipertrofia VI,Si,Ascendente,Glucosa Normal,Enfermo,PAC-00652,33000.0
+59,M,TA,160,273,0,LVH,125,N,0.0,Up,1,Hombre,Angina tipica,Hipertrofia VI,No,Ascendente,Glucosa Normal,Enfermo,PAC-00653,17500.0
+42,M,NAP,130,180,0,Normal,150,N,0.0,Up,0,Hombre,Dolor no anginoso,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00654,4000.0
+48,M,ASY,122,222,0,LVH,186,N,0.0,Up,0,Hombre,Asintomatico,Hipertrofia VI,No,Ascendente,Glucosa Normal,Sano,PAC-00655,11000.0
+40,M,ASY,152,223,0,Normal,181,N,0.0,Up,1,Hombre,Asintomatico,Normal,No,Ascendente,Glucosa Normal,Enfermo,PAC-00656,19200.0
+62,F,ASY,124,209,0,Normal,163,N,0.0,Up,0,Mujer,Asintomatico,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00657,9700.0
+44,M,NAP,130,233,0,Normal,179,Y,0.4,Up,0,Hombre,Dolor no anginoso,Normal,Si,Ascendente,Glucosa Normal,Sano,PAC-00658,7500.0
+46,M,ATA,101,197,1,Normal,156,N,0.0,Up,0,Hombre,Angina atipica,Normal,No,Ascendente,Glucosa Alta,Sano,PAC-00659,4900.0
+59,M,NAP,126,218,1,Normal,134,N,2.2,Flat,1,Hombre,Dolor no anginoso,Normal,No,Plano,Glucosa Alta,Enfermo,PAC-00660,25700.0
+58,M,NAP,140,211,1,LVH,165,N,0.0,Up,0,Hombre,Dolor no anginoso,Hipertrofia VI,No,Ascendente,Glucosa Alta,Sano,PAC-00661,5600.0
+49,M,NAP,118,149,0,LVH,126,N,0.8,Up,1,Hombre,Dolor no anginoso,Hipertrofia VI,No,Ascendente,Glucosa Normal,Enfermo,PAC-00662,17500.0
+44,M,ASY,110,197,0,LVH,177,N,0.0,Up,1,Hombre,Asintomatico,Hipertrofia VI,No,Ascendente,Glucosa Normal,Enfermo,PAC-00663,19400.0
+66,M,ATA,160,246,0,Normal,120,Y,0.0,Flat,1,Hombre,Angina atipica,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00664,21700.0
+65,F,ASY,150,225,0,LVH,114,N,1.0,Flat,1,Mujer,Asintomatico,Hipertrofia VI,No,Plano,Glucosa Normal,Enfermo,PAC-00665,24100.0
+42,M,ASY,136,315,0,Normal,125,Y,1.8,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00666,28700.0
+52,M,ATA,128,205,1,Normal,184,N,0.0,Up,0,Hombre,Angina atipica,Normal,No,Ascendente,Glucosa Alta,Sano,PAC-00667,5200.0
+65,F,NAP,140,417,1,LVH,157,N,0.8,Up,0,Mujer,Dolor no anginoso,Hipertrofia VI,No,Ascendente,Glucosa Alta,Sano,PAC-00668,11000.0
+63,F,ATA,140,195,0,Normal,179,N,0.0,Up,0,Mujer,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00669,4100.0
+45,F,ATA,130,234,0,LVH,175,N,0.6,Flat,0,Mujer,Angina atipica,Hipertrofia VI,No,Plano,Glucosa Normal,Sano,PAC-00670,10000.0
+41,F,ATA,105,198,0,Normal,168,N,0.0,Up,0,Mujer,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00671,4900.0
+61,M,ASY,138,166,0,LVH,125,Y,3.6,Flat,1,Hombre,Asintomatico,Hipertrofia VI,Si,Plano,Glucosa Normal,Enfermo,PAC-00672,24100.0
+60,F,NAP,120,178,1,Normal,96,N,0.0,Up,0,Mujer,Dolor no anginoso,Normal,No,Ascendente,Glucosa Alta,Sano,PAC-00673,6100.0
+59,F,ASY,174,249,0,Normal,143,Y,0.0,Flat,1,Mujer,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00674,24300.0
+62,M,ATA,120,281,0,LVH,103,N,1.4,Flat,1,Hombre,Angina atipica,Hipertrofia VI,No,Plano,Glucosa Normal,Enfermo,PAC-00675,19400.0
+57,M,NAP,150,126,1,Normal,173,N,0.2,Up,0,Hombre,Dolor no anginoso,Normal,No,Ascendente,Glucosa Alta,Sano,PAC-00676,5800.0
+51,F,ASY,130,305,0,Normal,142,Y,1.2,Flat,1,Mujer,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00677,23200.0
+44,M,NAP,120,226,0,Normal,169,N,0.0,Up,0,Hombre,Dolor no anginoso,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00678,5700.0
+60,F,TA,150,240,0,Normal,171,N,0.9,Up,0,Mujer,Angina tipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00679,9900.0
+63,M,TA,145,233,1,LVH,150,N,2.3,Down,0,Hombre,Angina tipica,Hipertrofia VI,No,Descendente,Glucosa Alta,Sano,PAC-00680,17900.0
+57,M,ASY,150,276,0,LVH,112,Y,0.6,Flat,1,Hombre,Asintomatico,Hipertrofia VI,Si,Plano,Glucosa Normal,Enfermo,PAC-00681,30000.0
+51,M,ASY,140,261,0,LVH,186,Y,0.0,Up,0,Hombre,Asintomatico,Hipertrofia VI,Si,Ascendente,Glucosa Normal,Sano,PAC-00682,8600.0
+58,F,ATA,136,319,1,LVH,152,N,0.0,Up,1,Mujer,Angina atipica,Hipertrofia VI,No,Ascendente,Glucosa Alta,Enfermo,PAC-00683,16700.0
+44,F,NAP,118,242,0,Normal,149,N,0.3,Flat,0,Mujer,Dolor no anginoso,Normal,No,Plano,Glucosa Normal,Sano,PAC-00684,8300.0
+47,M,NAP,108,243,0,Normal,152,N,0.0,Up,1,Hombre,Dolor no anginoso,Normal,No,Ascendente,Glucosa Normal,Enfermo,PAC-00685,13800.0
+61,M,ASY,120,260,0,Normal,140,Y,3.6,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00686,38800.0
+57,F,ASY,120,354,0,Normal,163,Y,0.6,Up,0,Mujer,Asintomatico,Normal,Si,Ascendente,Glucosa Normal,Sano,PAC-00687,12100.0
+70,M,ATA,156,245,0,LVH,143,N,0.0,Up,0,Hombre,Angina atipica,Hipertrofia VI,No,Ascendente,Glucosa Normal,Sano,PAC-00688,7200.0
+76,F,NAP,140,197,0,ST,116,N,1.1,Flat,0,Mujer,Dolor no anginoso,Anomalia ST-T,No,Plano,Glucosa Normal,Sano,PAC-00689,15000.0
+67,F,ASY,106,223,0,Normal,142,N,0.3,Up,0,Mujer,Asintomatico,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00690,11700.0
+45,M,ASY,142,309,0,LVH,147,Y,0.0,Flat,1,Hombre,Asintomatico,Hipertrofia VI,Si,Plano,Glucosa Normal,Enfermo,PAC-00691,22800.0
+45,M,ASY,104,208,0,LVH,148,Y,3.0,Flat,0,Hombre,Asintomatico,Hipertrofia VI,Si,Plano,Glucosa Normal,Sano,PAC-00692,23000.0
+39,F,NAP,94,199,0,Normal,179,N,0.0,Up,0,Mujer,Dolor no anginoso,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00693,4000.0
+42,F,NAP,120,209,0,Normal,173,N,0.0,Flat,0,Mujer,Dolor no anginoso,Normal,No,Plano,Glucosa Normal,Sano,PAC-00694,7400.0
+56,M,ATA,120,236,0,Normal,178,N,0.8,Up,0,Hombre,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00695,8600.0
+58,M,ASY,146,218,0,Normal,105,N,2.0,Flat,1,Hombre,Asintomatico,Normal,No,Plano,Glucosa Normal,Enfermo,PAC-00696,27300.0
+35,M,ASY,120,198,0,Normal,130,Y,1.6,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00697,28800.0
+58,M,ASY,150,270,0,LVH,111,Y,0.8,Up,1,Hombre,Asintomatico,Hipertrofia VI,Si,Ascendente,Glucosa Normal,Enfermo,PAC-00698,20400.0
+41,M,NAP,130,214,0,LVH,168,N,2.0,Flat,0,Hombre,Dolor no anginoso,Hipertrofia VI,No,Plano,Glucosa Normal,Sano,PAC-00699,13200.0
+57,M,ASY,110,201,0,Normal,126,Y,1.5,Flat,0,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Sano,PAC-00700,16800.0
+42,M,TA,148,244,0,LVH,178,N,0.8,Up,0,Hombre,Angina tipica,Hipertrofia VI,No,Ascendente,Glucosa Normal,Sano,PAC-00701,5800.0
+62,M,ATA,128,208,1,LVH,140,N,0.0,Up,0,Hombre,Angina atipica,Hipertrofia VI,No,Ascendente,Glucosa Alta,Sano,PAC-00702,7700.0
+59,M,TA,178,270,0,LVH,145,N,4.2,Down,0,Hombre,Angina tipica,Hipertrofia VI,No,Descendente,Glucosa Normal,Sano,PAC-00703,17200.0
+41,F,ATA,126,306,0,Normal,163,N,0.0,Up,0,Mujer,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00704,4000.0
+50,M,ASY,150,243,0,LVH,128,N,2.6,Flat,1,Hombre,Asintomatico,Hipertrofia VI,No,Plano,Glucosa Normal,Enfermo,PAC-00705,22400.0
+59,M,ATA,140,221,0,Normal,164,Y,0.0,Up,0,Hombre,Angina atipica,Normal,Si,Ascendente,Glucosa Normal,Sano,PAC-00706,9000.0
+61,F,ASY,130,330,0,LVH,169,N,0.0,Up,1,Mujer,Asintomatico,Hipertrofia VI,No,Ascendente,Glucosa Normal,Enfermo,PAC-00707,17400.0
+54,M,ASY,124,266,0,LVH,109,Y,2.2,Flat,1,Hombre,Asintomatico,Hipertrofia VI,Si,Plano,Glucosa Normal,Enfermo,PAC-00708,38800.0
+54,M,ASY,110,206,0,LVH,108,Y,0.0,Flat,1,Hombre,Asintomatico,Hipertrofia VI,Si,Plano,Glucosa Normal,Enfermo,PAC-00709,17300.0
+52,M,ASY,125,212,0,Normal,168,N,1.0,Up,1,Hombre,Asintomatico,Normal,No,Ascendente,Glucosa Normal,Enfermo,PAC-00710,28800.0
+47,M,ASY,110,275,0,LVH,118,Y,1.0,Flat,1,Hombre,Asintomatico,Hipertrofia VI,Si,Plano,Glucosa Normal,Enfermo,PAC-00711,27700.0
+66,M,ASY,120,302,0,LVH,151,N,0.4,Flat,0,Hombre,Asintomatico,Hipertrofia VI,No,Plano,Glucosa Normal,Sano,PAC-00712,13400.0
+58,M,ASY,100,234,0,Normal,156,N,0.1,Up,1,Hombre,Asintomatico,Normal,No,Ascendente,Glucosa Normal,Enfermo,PAC-00713,19700.0
+64,F,NAP,140,313,0,Normal,133,N,0.2,Up,0,Mujer,Dolor no anginoso,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00714,7800.0
+50,F,ATA,120,244,0,Normal,162,N,1.1,Up,0,Mujer,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00715,7900.0
+44,F,NAP,108,141,0,Normal,175,N,0.6,Flat,0,Mujer,Dolor no anginoso,Normal,No,Plano,Glucosa Normal,Sano,PAC-00716,9900.0
+67,M,ASY,120,237,0,Normal,71,N,1.0,Flat,1,Hombre,Asintomatico,Normal,No,Plano,Glucosa Normal,Enfermo,PAC-00717,27700.0
+49,F,ASY,130,269,0,Normal,163,N,0.0,Up,0,Mujer,Asintomatico,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00718,8300.0
+57,M,ASY,165,289,1,LVH,124,N,1.0,Flat,1,Hombre,Asintomatico,Hipertrofia VI,No,Plano,Glucosa Alta,Enfermo,PAC-00719,24600.0
+63,M,ASY,130,254,0,LVH,147,N,1.4,Flat,1,Hombre,Asintomatico,Hipertrofia VI,No,Plano,Glucosa Normal,Enfermo,PAC-00720,27500.0
+48,M,ASY,124,274,0,LVH,166,N,0.5,Flat,1,Hombre,Asintomatico,Hipertrofia VI,No,Plano,Glucosa Normal,Enfermo,PAC-00721,24800.0
+51,M,NAP,100,222,0,Normal,143,Y,1.2,Flat,0,Hombre,Dolor no anginoso,Normal,Si,Plano,Glucosa Normal,Sano,PAC-00722,9500.0
+60,F,ASY,150,258,0,LVH,157,N,2.6,Flat,1,Mujer,Asintomatico,Hipertrofia VI,No,Plano,Glucosa Normal,Enfermo,PAC-00723,24300.0
+59,M,ASY,140,177,0,Normal,162,Y,0.0,Up,1,Hombre,Asintomatico,Normal,Si,Ascendente,Glucosa Normal,Enfermo,PAC-00724,25900.0
+45,F,ATA,112,160,0,Normal,138,N,0.0,Flat,0,Mujer,Angina atipica,Normal,No,Plano,Glucosa Normal,Sano,PAC-00725,7300.0
+55,F,ASY,180,327,0,ST,117,Y,3.4,Flat,1,Mujer,Asintomatico,Anomalia ST-T,Si,Plano,Glucosa Normal,Enfermo,PAC-00726,32900.0
+41,M,ATA,110,235,0,Normal,153,N,0.0,Up,0,Hombre,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00727,4100.0
+60,F,ASY,158,305,0,LVH,161,N,0.0,Up,1,Mujer,Asintomatico,Hipertrofia VI,No,Ascendente,Glucosa Normal,Enfermo,PAC-00728,22500.0
+54,F,NAP,135,304,1,Normal,170,N,0.0,Up,0,Mujer,Dolor no anginoso,Normal,No,Ascendente,Glucosa Alta,Sano,PAC-00729,5200.0
+42,M,ATA,120,295,0,Normal,162,N,0.0,Up,0,Hombre,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00730,4000.0
+49,F,ATA,134,271,0,Normal,162,N,0.0,Flat,0,Mujer,Angina atipica,Normal,No,Plano,Glucosa Normal,Sano,PAC-00731,7800.0
+46,M,ASY,120,249,0,LVH,144,N,0.8,Up,1,Hombre,Asintomatico,Hipertrofia VI,No,Ascendente,Glucosa Normal,Enfermo,PAC-00732,18500.0
+56,F,ASY,200,288,1,LVH,133,Y,4.0,Down,1,Mujer,Asintomatico,Hipertrofia VI,Si,Descendente,Glucosa Alta,Enfermo,PAC-00733,37600.0
+66,F,TA,150,226,0,Normal,114,N,2.6,Down,0,Mujer,Angina tipica,Normal,No,Descendente,Glucosa Normal,Sano,PAC-00734,12000.0
+56,M,ASY,130,283,1,LVH,103,Y,1.6,Down,1,Hombre,Asintomatico,Hipertrofia VI,Si,Descendente,Glucosa Alta,Enfermo,PAC-00735,34000.0
+49,M,NAP,120,188,0,Normal,139,N,2.0,Flat,1,Hombre,Dolor no anginoso,Normal,No,Plano,Glucosa Normal,Enfermo,PAC-00736,26300.0
+54,M,ASY,122,286,0,LVH,116,Y,3.2,Flat,1,Hombre,Asintomatico,Hipertrofia VI,Si,Plano,Glucosa Normal,Enfermo,PAC-00737,34500.0
+57,M,ASY,152,274,0,Normal,88,Y,1.2,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00738,32700.0
+65,F,NAP,160,360,0,LVH,151,N,0.8,Up,0,Mujer,Dolor no anginoso,Hipertrofia VI,No,Ascendente,Glucosa Normal,Sano,PAC-00739,11200.0
+54,M,NAP,125,273,0,LVH,152,N,0.5,Down,0,Hombre,Dolor no anginoso,Hipertrofia VI,No,Descendente,Glucosa Normal,Sano,PAC-00740,10900.0
+54,F,NAP,160,201,0,Normal,163,N,0.0,Up,0,Mujer,Dolor no anginoso,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00741,4100.0
+62,M,ASY,120,267,0,Normal,99,Y,1.8,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00742,24800.0
+52,F,NAP,136,196,0,LVH,169,N,0.1,Flat,0,Mujer,Dolor no anginoso,Hipertrofia VI,No,Plano,Glucosa Normal,Sano,PAC-00743,7400.0
+52,M,ATA,134,201,0,Normal,158,N,0.8,Up,0,Hombre,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00744,7500.0
+60,M,ASY,117,230,1,Normal,160,Y,1.4,Up,1,Hombre,Asintomatico,Normal,Si,Ascendente,Glucosa Alta,Enfermo,PAC-00745,29000.0
+63,F,ASY,108,269,0,Normal,169,Y,1.8,Flat,1,Mujer,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00746,27400.0
+66,M,ASY,112,212,0,LVH,132,Y,0.1,Up,1,Hombre,Asintomatico,Hipertrofia VI,Si,Ascendente,Glucosa Normal,Enfermo,PAC-00747,25100.0
+42,M,ASY,140,226,0,Normal,178,N,0.0,Up,0,Hombre,Asintomatico,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00748,6400.0
+64,M,ASY,120,246,0,LVH,96,Y,2.2,Down,1,Hombre,Asintomatico,Hipertrofia VI,Si,Descendente,Glucosa Normal,Enfermo,PAC-00749,29000.0
+54,M,NAP,150,232,0,LVH,165,N,1.6,Up,0,Hombre,Dolor no anginoso,Hipertrofia VI,No,Ascendente,Glucosa Normal,Sano,PAC-00750,7600.0
+46,F,NAP,142,177,0,LVH,160,Y,1.4,Down,0,Mujer,Dolor no anginoso,Hipertrofia VI,Si,Descendente,Glucosa Normal,Sano,PAC-00751,11000.0
+67,F,NAP,152,277,0,Normal,172,N,0.0,Up,0,Mujer,Dolor no anginoso,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00752,5800.0
+56,M,ASY,125,249,1,LVH,144,Y,1.2,Flat,1,Hombre,Asintomatico,Hipertrofia VI,Si,Plano,Glucosa Alta,Enfermo,PAC-00753,24300.0
+34,F,ATA,118,210,0,Normal,192,N,0.7,Up,0,Mujer,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00754,6700.0
+57,M,ASY,132,207,0,Normal,168,Y,0.0,Up,0,Hombre,Asintomatico,Normal,Si,Ascendente,Glucosa Normal,Sano,PAC-00755,9500.0
+64,M,ASY,145,212,0,LVH,132,N,2.0,Flat,1,Hombre,Asintomatico,Hipertrofia VI,No,Plano,Glucosa Normal,Enfermo,PAC-00756,41000.0
+59,M,ASY,138,271,0,LVH,182,N,0.0,Up,0,Hombre,Asintomatico,Hipertrofia VI,No,Ascendente,Glucosa Normal,Sano,PAC-00757,10000.0
+50,M,NAP,140,233,0,Normal,163,N,0.6,Flat,1,Hombre,Dolor no anginoso,Normal,No,Plano,Glucosa Normal,Enfermo,PAC-00758,21800.0
+51,M,TA,125,213,0,LVH,125,Y,1.4,Up,0,Hombre,Angina tipica,Hipertrofia VI,Si,Ascendente,Glucosa Normal,Sano,PAC-00759,9400.0
+54,M,ATA,192,283,0,LVH,195,N,0.0,Up,1,Hombre,Angina atipica,Hipertrofia VI,No,Ascendente,Glucosa Normal,Enfermo,PAC-00760,19500.0
+53,M,ASY,123,282,0,Normal,95,Y,2.0,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00761,27500.0
+52,M,ASY,112,230,0,Normal,160,N,0.0,Up,1,Hombre,Asintomatico,Normal,No,Ascendente,Glucosa Normal,Enfermo,PAC-00762,20800.0
+40,M,ASY,110,167,0,LVH,114,Y,2.0,Flat,1,Hombre,Asintomatico,Hipertrofia VI,Si,Plano,Glucosa Normal,Enfermo,PAC-00763,39400.0
+58,M,NAP,132,224,0,LVH,173,N,3.2,Up,1,Hombre,Dolor no anginoso,Hipertrofia VI,No,Ascendente,Glucosa Normal,Enfermo,PAC-00764,25800.0
+41,F,NAP,112,268,0,LVH,172,Y,0.0,Up,0,Mujer,Dolor no anginoso,Hipertrofia VI,Si,Ascendente,Glucosa Normal,Sano,PAC-00765,7200.0
+41,M,NAP,112,250,0,Normal,179,N,0.0,Up,0,Hombre,Dolor no anginoso,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00766,4000.0
+50,F,NAP,120,219,0,Normal,158,N,1.6,Flat,0,Mujer,Dolor no anginoso,Normal,No,Plano,Glucosa Normal,Sano,PAC-00767,11600.0
+54,F,NAP,108,267,0,LVH,167,N,0.0,Up,0,Mujer,Dolor no anginoso,Hipertrofia VI,No,Ascendente,Glucosa Normal,Sano,PAC-00768,7200.0
+64,F,ASY,130,303,0,Normal,122,N,2.0,Flat,0,Mujer,Asintomatico,Normal,No,Plano,Glucosa Normal,Sano,PAC-00769,15700.0
+51,F,NAP,130,256,0,LVH,149,N,0.5,Up,0,Mujer,Dolor no anginoso,Hipertrofia VI,No,Ascendente,Glucosa Normal,Sano,PAC-00770,8400.0
+46,F,ATA,105,204,0,Normal,172,N,0.0,Up,0,Mujer,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00771,5200.0
+55,M,ASY,140,217,0,Normal,111,Y,5.6,Down,1,Hombre,Asintomatico,Normal,Si,Descendente,Glucosa Normal,Enfermo,PAC-00772,36000.0
+45,M,ATA,128,308,0,LVH,170,N,0.0,Up,0,Hombre,Angina atipica,Hipertrofia VI,No,Ascendente,Glucosa Normal,Sano,PAC-00773,5000.0
+56,M,TA,120,193,0,LVH,162,N,1.9,Flat,0,Hombre,Angina tipica,Hipertrofia VI,No,Plano,Glucosa Normal,Sano,PAC-00774,15100.0
+66,F,ASY,178,228,1,Normal,165,Y,1.0,Flat,1,Mujer,Asintomatico,Normal,Si,Plano,Glucosa Alta,Enfermo,PAC-00775,31800.0
+38,M,TA,120,231,0,Normal,182,Y,3.8,Flat,1,Hombre,Angina tipica,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00776,22900.0
+62,F,ASY,150,244,0,Normal,154,Y,1.4,Flat,1,Mujer,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00777,26400.0
+55,M,ATA,130,262,0,Normal,155,N,0.0,Up,0,Hombre,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00778,5600.0
+58,M,ASY,128,259,0,LVH,130,Y,3.0,Flat,1,Hombre,Asintomatico,Hipertrofia VI,Si,Plano,Glucosa Normal,Enfermo,PAC-00779,32800.0
+43,M,ASY,110,211,0,Normal,161,N,0.0,Up,0,Hombre,Asintomatico,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00780,8000.0
+64,F,ASY,180,325,0,Normal,154,Y,0.0,Up,0,Mujer,Asintomatico,Normal,Si,Ascendente,Glucosa Normal,Sano,PAC-00781,12200.0
+50,F,ASY,110,254,0,LVH,159,N,0.0,Up,0,Mujer,Asintomatico,Hipertrofia VI,No,Ascendente,Glucosa Normal,Sano,PAC-00782,6600.0
+53,M,NAP,130,197,1,LVH,152,N,1.2,Down,0,Hombre,Dolor no anginoso,Hipertrofia VI,No,Descendente,Glucosa Alta,Sano,PAC-00783,11700.0
+45,F,ASY,138,236,0,LVH,152,Y,0.2,Flat,0,Mujer,Asintomatico,Hipertrofia VI,Si,Plano,Glucosa Normal,Sano,PAC-00784,13800.0
+65,M,TA,138,282,1,LVH,174,N,1.4,Flat,1,Hombre,Angina tipica,Hipertrofia VI,No,Plano,Glucosa Alta,Enfermo,PAC-00785,27100.0
+69,M,TA,160,234,1,LVH,131,N,0.1,Flat,0,Hombre,Angina tipica,Hipertrofia VI,No,Plano,Glucosa Alta,Sano,PAC-00786,11900.0
+69,M,NAP,140,254,0,LVH,146,N,2.0,Flat,1,Hombre,Dolor no anginoso,Hipertrofia VI,No,Plano,Glucosa Normal,Enfermo,PAC-00787,30400.0
+67,M,ASY,100,299,0,LVH,125,Y,0.9,Flat,1,Hombre,Asintomatico,Hipertrofia VI,Si,Plano,Glucosa Normal,Enfermo,PAC-00788,31000.0
+68,F,NAP,120,211,0,LVH,115,N,1.5,Flat,0,Mujer,Dolor no anginoso,Hipertrofia VI,No,Plano,Glucosa Normal,Sano,PAC-00789,13500.0
+34,M,TA,118,182,0,LVH,174,N,0.0,Up,0,Hombre,Angina tipica,Hipertrofia VI,No,Ascendente,Glucosa Normal,Sano,PAC-00790,4000.0
+62,F,ASY,138,294,1,Normal,106,N,1.9,Flat,1,Mujer,Asintomatico,Normal,No,Plano,Glucosa Alta,Enfermo,PAC-00791,30800.0
+51,M,ASY,140,298,0,Normal,122,Y,4.2,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00792,36400.0
+46,M,NAP,150,231,0,Normal,147,N,3.6,Flat,1,Hombre,Dolor no anginoso,Normal,No,Plano,Glucosa Normal,Enfermo,PAC-00793,29400.0
+67,M,ASY,125,254,1,Normal,163,N,0.2,Flat,1,Hombre,Asintomatico,Normal,No,Plano,Glucosa Alta,Enfermo,PAC-00794,20400.0
+50,M,NAP,129,196,0,Normal,163,N,0.0,Up,0,Hombre,Dolor no anginoso,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00795,4400.0
+42,M,NAP,120,240,1,Normal,194,N,0.8,Down,0,Hombre,Dolor no anginoso,Normal,No,Descendente,Glucosa Alta,Sano,PAC-00796,10100.0
+56,F,ASY,134,409,0,LVH,150,Y,1.9,Flat,1,Mujer,Asintomatico,Hipertrofia VI,Si,Plano,Glucosa Normal,Enfermo,PAC-00797,30000.0
+41,M,ASY,110,172,0,LVH,158,N,0.0,Up,1,Hombre,Asintomatico,Hipertrofia VI,No,Ascendente,Glucosa Normal,Enfermo,PAC-00798,21100.0
+42,F,ASY,102,265,0,LVH,122,N,0.6,Flat,0,Mujer,Asintomatico,Hipertrofia VI,No,Plano,Glucosa Normal,Sano,PAC-00799,11300.0
+53,M,NAP,130,246,1,LVH,173,N,0.0,Up,0,Hombre,Dolor no anginoso,Hipertrofia VI,No,Ascendente,Glucosa Alta,Sano,PAC-00800,5600.0
+43,M,NAP,130,315,0,Normal,162,N,1.9,Up,0,Hombre,Dolor no anginoso,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00801,10400.0
+56,M,ASY,132,184,0,LVH,105,Y,2.1,Flat,1,Hombre,Asintomatico,Hipertrofia VI,Si,Plano,Glucosa Normal,Enfermo,PAC-00802,28300.0
+52,M,ASY,108,233,1,Normal,147,N,0.1,Up,0,Hombre,Asintomatico,Normal,No,Ascendente,Glucosa Alta,Sano,PAC-00803,8800.0
+62,F,ASY,140,394,0,LVH,157,N,1.2,Flat,0,Mujer,Asintomatico,Hipertrofia VI,No,Plano,Glucosa Normal,Sano,PAC-00804,14100.0
+70,M,NAP,160,269,0,Normal,112,Y,2.9,Flat,1,Hombre,Dolor no anginoso,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00805,29300.0
+54,M,ASY,140,239,0,Normal,160,N,1.2,Up,0,Hombre,Asintomatico,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00806,11100.0
+70,M,ASY,145,174,0,Normal,125,Y,2.6,Down,1,Hombre,Asintomatico,Normal,Si,Descendente,Glucosa Normal,Enfermo,PAC-00807,34700.0
+54,M,ATA,108,309,0,Normal,156,N,0.0,Up,0,Hombre,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00808,5300.0
+35,M,ASY,126,282,0,LVH,156,Y,0.0,Up,1,Hombre,Asintomatico,Hipertrofia VI,Si,Ascendente,Glucosa Normal,Enfermo,PAC-00809,25000.0
+48,M,NAP,124,255,1,Normal,175,N,0.0,Up,0,Hombre,Dolor no anginoso,Normal,No,Ascendente,Glucosa Alta,Sano,PAC-00810,4300.0
+55,F,ATA,135,250,0,LVH,161,N,1.4,Flat,0,Mujer,Angina atipica,Hipertrofia VI,No,Plano,Glucosa Normal,Sano,PAC-00811,11500.0
+58,F,ASY,100,248,0,LVH,122,N,1.0,Flat,0,Mujer,Asintomatico,Hipertrofia VI,No,Plano,Glucosa Normal,Sano,PAC-00812,13200.0
+54,F,NAP,110,214,0,Normal,158,N,1.6,Flat,0,Mujer,Dolor no anginoso,Normal,No,Plano,Glucosa Normal,Sano,PAC-00813,14800.0
+69,F,TA,140,239,0,Normal,151,N,1.8,Up,0,Mujer,Angina tipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00814,12300.0
+77,M,ASY,125,304,0,LVH,162,Y,0.0,Up,1,Hombre,Asintomatico,Hipertrofia VI,Si,Ascendente,Glucosa Normal,Enfermo,PAC-00815,29400.0
+68,M,NAP,118,277,0,Normal,151,N,1.0,Up,0,Hombre,Dolor no anginoso,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00816,7700.0
+58,M,ASY,125,300,0,LVH,171,N,0.0,Up,1,Hombre,Asintomatico,Hipertrofia VI,No,Ascendente,Glucosa Normal,Enfermo,PAC-00817,22000.0
+60,M,ASY,125,258,0,LVH,141,Y,2.8,Flat,1,Hombre,Asintomatico,Hipertrofia VI,Si,Plano,Glucosa Normal,Enfermo,PAC-00818,37300.0
+51,M,ASY,140,299,0,Normal,173,Y,1.6,Up,1,Hombre,Asintomatico,Normal,Si,Ascendente,Glucosa Normal,Enfermo,PAC-00819,26600.0
+55,M,ASY,160,289,0,LVH,145,Y,0.8,Flat,1,Hombre,Asintomatico,Hipertrofia VI,Si,Plano,Glucosa Normal,Enfermo,PAC-00820,31700.0
+52,M,TA,152,298,1,Normal,178,N,1.2,Flat,0,Hombre,Angina tipica,Normal,No,Plano,Glucosa Alta,Sano,PAC-00821,10100.0
+60,F,NAP,102,318,0,Normal,160,N,0.0,Up,0,Mujer,Dolor no anginoso,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00822,7800.0
+58,M,NAP,105,240,0,LVH,154,Y,0.6,Flat,0,Hombre,Dolor no anginoso,Hipertrofia VI,Si,Plano,Glucosa Normal,Sano,PAC-00823,16400.0
+64,M,NAP,125,309,0,Normal,131,Y,1.8,Flat,1,Hombre,Dolor no anginoso,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00824,26400.0
+37,M,NAP,130,250,0,Normal,187,N,3.5,Down,0,Hombre,Dolor no anginoso,Normal,No,Descendente,Glucosa Normal,Sano,PAC-00825,14200.0
+59,M,TA,170,288,0,LVH,159,N,0.2,Flat,1,Hombre,Angina tipica,Hipertrofia VI,No,Plano,Glucosa Normal,Enfermo,PAC-00826,25900.0
+51,M,NAP,125,245,1,LVH,166,N,2.4,Flat,0,Hombre,Dolor no anginoso,Hipertrofia VI,No,Plano,Glucosa Alta,Sano,PAC-00827,17100.0
+43,F,NAP,122,213,0,Normal,165,N,0.2,Flat,0,Mujer,Dolor no anginoso,Normal,No,Plano,Glucosa Normal,Sano,PAC-00828,6800.0
+58,M,ASY,128,216,0,LVH,131,Y,2.2,Flat,1,Hombre,Asintomatico,Hipertrofia VI,Si,Plano,Glucosa Normal,Enfermo,PAC-00829,29200.0
+29,M,ATA,130,204,0,LVH,202,N,0.0,Up,0,Hombre,Angina atipica,Hipertrofia VI,No,Ascendente,Glucosa Normal,Sano,PAC-00830,4000.0
+41,F,ATA,130,204,0,LVH,172,N,1.4,Up,0,Mujer,Angina atipica,Hipertrofia VI,No,Ascendente,Glucosa Normal,Sano,PAC-00831,6100.0
+63,F,NAP,135,252,0,LVH,172,N,0.0,Up,0,Mujer,Dolor no anginoso,Hipertrofia VI,No,Ascendente,Glucosa Normal,Sano,PAC-00832,5800.0
+51,M,NAP,94,227,0,Normal,154,Y,0.0,Up,0,Hombre,Dolor no anginoso,Normal,Si,Ascendente,Glucosa Normal,Sano,PAC-00833,6200.0
+54,M,NAP,120,258,0,LVH,147,N,0.4,Flat,0,Hombre,Dolor no anginoso,Hipertrofia VI,No,Plano,Glucosa Normal,Sano,PAC-00834,8100.0
+44,M,ATA,120,220,0,Normal,170,N,0.0,Up,0,Hombre,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00835,4500.0
+54,M,ASY,110,239,0,Normal,126,Y,2.8,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00836,33300.0
+65,M,ASY,135,254,0,LVH,127,N,2.8,Flat,1,Hombre,Asintomatico,Hipertrofia VI,No,Plano,Glucosa Normal,Enfermo,PAC-00837,38800.0
+57,M,NAP,150,168,0,Normal,174,N,1.6,Up,0,Hombre,Dolor no anginoso,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00838,8500.0
+63,M,ASY,130,330,1,LVH,132,Y,1.8,Up,1,Hombre,Asintomatico,Hipertrofia VI,Si,Ascendente,Glucosa Alta,Enfermo,PAC-00839,32400.0
+35,F,ASY,138,183,0,Normal,182,N,1.4,Up,0,Mujer,Asintomatico,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00840,10200.0
+41,M,ATA,135,203,0,Normal,132,N,0.0,Flat,0,Hombre,Angina atipica,Normal,No,Plano,Glucosa Normal,Sano,PAC-00841,6600.0
+62,F,NAP,130,263,0,Normal,97,N,1.2,Flat,1,Mujer,Dolor no anginoso,Normal,No,Plano,Glucosa Normal,Enfermo,PAC-00842,26600.0
+43,F,ASY,132,341,1,LVH,136,Y,3.0,Flat,1,Mujer,Asintomatico,Hipertrofia VI,Si,Plano,Glucosa Alta,Enfermo,PAC-00843,26100.0
+58,F,TA,150,283,1,LVH,162,N,1.0,Up,0,Mujer,Angina tipica,Hipertrofia VI,No,Ascendente,Glucosa Alta,Sano,PAC-00844,9200.0
+52,M,TA,118,186,0,LVH,190,N,0.0,Flat,0,Hombre,Angina tipica,Hipertrofia VI,No,Plano,Glucosa Normal,Sano,PAC-00845,8100.0
+61,F,ASY,145,307,0,LVH,146,Y,1.0,Flat,1,Mujer,Asintomatico,Hipertrofia VI,Si,Plano,Glucosa Normal,Enfermo,PAC-00846,30600.0
+39,M,ASY,118,219,0,Normal,140,N,1.2,Flat,1,Hombre,Asintomatico,Normal,No,Plano,Glucosa Normal,Enfermo,PAC-00847,25600.0
+45,M,ASY,115,260,0,LVH,185,N,0.0,Up,0,Hombre,Asintomatico,Hipertrofia VI,No,Ascendente,Glucosa Normal,Sano,PAC-00848,10400.0
+52,M,ASY,128,255,0,Normal,161,Y,0.0,Up,1,Hombre,Asintomatico,Normal,Si,Ascendente,Glucosa Normal,Enfermo,PAC-00849,20300.0
+62,M,NAP,130,231,0,Normal,146,N,1.8,Flat,0,Hombre,Dolor no anginoso,Normal,No,Plano,Glucosa Normal,Sano,PAC-00850,12600.0
+62,F,ASY,160,164,0,LVH,145,N,6.2,Down,1,Mujer,Asintomatico,Hipertrofia VI,No,Descendente,Glucosa Normal,Enfermo,PAC-00851,35900.0
+53,F,ASY,138,234,0,LVH,160,N,0.0,Up,0,Mujer,Asintomatico,Hipertrofia VI,No,Ascendente,Glucosa Normal,Sano,PAC-00852,7800.0
+43,M,ASY,120,177,0,LVH,120,Y,2.5,Flat,1,Hombre,Asintomatico,Hipertrofia VI,Si,Plano,Glucosa Normal,Enfermo,PAC-00853,27200.0
+47,M,NAP,138,257,0,LVH,156,N,0.0,Up,0,Hombre,Dolor no anginoso,Hipertrofia VI,No,Ascendente,Glucosa Normal,Sano,PAC-00854,5700.0
+52,M,ATA,120,325,0,Normal,172,N,0.2,Up,0,Hombre,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00855,7200.0
+68,M,NAP,180,274,1,LVH,150,Y,1.6,Flat,1,Hombre,Dolor no anginoso,Hipertrofia VI,Si,Plano,Glucosa Alta,Enfermo,PAC-00856,25500.0
+39,M,NAP,140,321,0,LVH,182,N,0.0,Up,0,Hombre,Dolor no anginoso,Hipertrofia VI,No,Ascendente,Glucosa Normal,Sano,PAC-00857,4000.0
+53,F,ASY,130,264,0,LVH,143,N,0.4,Flat,0,Mujer,Asintomatico,Hipertrofia VI,No,Plano,Glucosa Normal,Sano,PAC-00858,12900.0
+62,F,ASY,140,268,0,LVH,160,N,3.6,Down,1,Mujer,Asintomatico,Hipertrofia VI,No,Descendente,Glucosa Normal,Enfermo,PAC-00859,30400.0
+51,F,NAP,140,308,0,LVH,142,N,1.5,Up,0,Mujer,Dolor no anginoso,Hipertrofia VI,No,Ascendente,Glucosa Normal,Sano,PAC-00860,9900.0
+60,M,ASY,130,253,0,Normal,144,Y,1.4,Up,1,Hombre,Asintomatico,Normal,Si,Ascendente,Glucosa Normal,Enfermo,PAC-00861,27700.0
+65,M,ASY,110,248,0,LVH,158,N,0.6,Up,1,Hombre,Asintomatico,Hipertrofia VI,No,Ascendente,Glucosa Normal,Enfermo,PAC-00862,18200.0
+65,F,NAP,155,269,0,Normal,148,N,0.8,Up,0,Mujer,Dolor no anginoso,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00863,11100.0
+60,M,NAP,140,185,0,LVH,155,N,3.0,Flat,1,Hombre,Dolor no anginoso,Hipertrofia VI,No,Plano,Glucosa Normal,Enfermo,PAC-00864,36100.0
+60,M,ASY,145,282,0,LVH,142,Y,2.8,Flat,1,Hombre,Asintomatico,Hipertrofia VI,Si,Plano,Glucosa Normal,Enfermo,PAC-00865,29900.0
+54,M,ASY,120,188,0,Normal,113,N,1.4,Flat,1,Hombre,Asintomatico,Normal,No,Plano,Glucosa Normal,Enfermo,PAC-00866,25100.0
+44,M,ATA,130,219,0,LVH,188,N,0.0,Up,0,Hombre,Angina atipica,Hipertrofia VI,No,Ascendente,Glucosa Normal,Sano,PAC-00867,4700.0
+44,M,ASY,112,290,0,LVH,153,N,0.0,Up,1,Hombre,Asintomatico,Hipertrofia VI,No,Ascendente,Glucosa Normal,Enfermo,PAC-00868,20500.0
+51,M,NAP,110,175,0,Normal,123,N,0.6,Up,0,Hombre,Dolor no anginoso,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00869,7500.0
+59,M,NAP,150,212,1,Normal,157,N,1.6,Up,0,Hombre,Dolor no anginoso,Normal,No,Ascendente,Glucosa Alta,Sano,PAC-00870,13400.0
+71,F,ATA,160,302,0,Normal,162,N,0.4,Up,0,Mujer,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00871,8500.0
+61,M,NAP,150,243,1,Normal,137,Y,1.0,Flat,0,Hombre,Dolor no anginoso,Normal,Si,Plano,Glucosa Alta,Sano,PAC-00872,11900.0
+55,M,ASY,132,353,0,Normal,132,Y,1.2,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00873,22400.0
+64,M,NAP,140,335,0,Normal,158,N,0.0,Up,1,Hombre,Dolor no anginoso,Normal,No,Ascendente,Glucosa Normal,Enfermo,PAC-00874,16800.0
+43,M,ASY,150,247,0,Normal,171,N,1.5,Up,0,Hombre,Asintomatico,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00875,11100.0
+58,F,NAP,120,340,0,Normal,172,N,0.0,Up,0,Mujer,Dolor no anginoso,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00876,7800.0
+60,M,ASY,130,206,0,LVH,132,Y,2.4,Flat,1,Hombre,Asintomatico,Hipertrofia VI,Si,Plano,Glucosa Normal,Enfermo,PAC-00877,29400.0
+58,M,ATA,120,284,0,LVH,160,N,1.8,Flat,1,Hombre,Angina atipica,Hipertrofia VI,No,Plano,Glucosa Normal,Enfermo,PAC-00878,26000.0
+49,M,ATA,130,266,0,Normal,171,N,0.6,Up,0,Hombre,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00879,6600.0
+48,M,ATA,110,229,0,Normal,168,N,1.0,Down,1,Hombre,Angina atipica,Normal,No,Descendente,Glucosa Normal,Enfermo,PAC-00880,25900.0
+52,M,NAP,172,199,1,Normal,162,N,0.5,Up,0,Hombre,Dolor no anginoso,Normal,No,Ascendente,Glucosa Alta,Sano,PAC-00881,9200.0
+44,M,ATA,120,263,0,Normal,173,N,0.0,Up,0,Hombre,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00882,4100.0
+56,F,ATA,140,294,0,LVH,153,N,1.3,Flat,0,Mujer,Angina atipica,Hipertrofia VI,No,Plano,Glucosa Normal,Sano,PAC-00883,10800.0
+57,M,ASY,140,192,0,Normal,148,N,0.4,Flat,0,Hombre,Asintomatico,Normal,No,Plano,Glucosa Normal,Sano,PAC-00884,14500.0
+67,M,ASY,160,286,0,LVH,108,Y,1.5,Flat,1,Hombre,Asintomatico,Hipertrofia VI,Si,Plano,Glucosa Normal,Enfermo,PAC-00885,33600.0
+53,F,NAP,128,216,0,LVH,115,N,0.0,Up,0,Mujer,Dolor no anginoso,Hipertrofia VI,No,Ascendente,Glucosa Normal,Sano,PAC-00886,7100.0
+52,M,NAP,138,223,0,Normal,169,N,0.0,Up,0,Hombre,Dolor no anginoso,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00887,5900.0
+43,M,ASY,132,247,1,LVH,143,Y,0.1,Flat,1,Hombre,Asintomatico,Hipertrofia VI,Si,Plano,Glucosa Alta,Enfermo,PAC-00888,22800.0
+52,M,ASY,128,204,1,Normal,156,Y,1.0,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Alta,Enfermo,PAC-00889,29900.0
+59,M,TA,134,204,0,Normal,162,N,0.8,Up,1,Hombre,Angina tipica,Normal,No,Ascendente,Glucosa Normal,Enfermo,PAC-00890,23700.0
+64,M,TA,170,227,0,LVH,155,N,0.6,Flat,0,Hombre,Angina tipica,Hipertrofia VI,No,Plano,Glucosa Normal,Sano,PAC-00891,12200.0
+66,F,NAP,146,278,0,LVH,152,N,0.0,Flat,0,Mujer,Dolor no anginoso,Hipertrofia VI,No,Plano,Glucosa Normal,Sano,PAC-00892,10400.0
+39,F,NAP,138,220,0,Normal,152,N,0.0,Flat,0,Mujer,Dolor no anginoso,Normal,No,Plano,Glucosa Normal,Sano,PAC-00893,7500.0
+57,M,ATA,154,232,0,LVH,164,N,0.0,Up,1,Hombre,Angina atipica,Hipertrofia VI,No,Ascendente,Glucosa Normal,Enfermo,PAC-00894,21200.0
+58,F,ASY,130,197,0,Normal,131,N,0.6,Flat,0,Mujer,Asintomatico,Normal,No,Plano,Glucosa Normal,Sano,PAC-00895,15900.0
+57,M,ASY,110,335,0,Normal,143,Y,3.0,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00896,36300.0
+47,M,NAP,130,253,0,Normal,179,N,0.0,Up,0,Hombre,Dolor no anginoso,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00897,4700.0
+55,F,ASY,128,205,0,ST,130,Y,2.0,Flat,1,Mujer,Asintomatico,Anomalia ST-T,Si,Plano,Glucosa Normal,Enfermo,PAC-00898,31000.0
+35,M,ATA,122,192,0,Normal,174,N,0.0,Up,0,Hombre,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00899,4700.0
+61,M,ASY,148,203,0,Normal,161,N,0.0,Up,1,Hombre,Asintomatico,Normal,No,Ascendente,Glucosa Normal,Enfermo,PAC-00900,18900.0
+58,M,ASY,114,318,0,ST,140,N,4.4,Down,1,Hombre,Asintomatico,Anomalia ST-T,No,Descendente,Glucosa Normal,Enfermo,PAC-00901,36600.0
+58,F,ASY,170,225,1,LVH,146,Y,2.8,Flat,1,Mujer,Asintomatico,Hipertrofia VI,Si,Plano,Glucosa Alta,Enfermo,PAC-00902,30700.0
+58,M,ATA,125,220,0,Normal,144,N,0.4,Flat,0,Hombre,Angina atipica,Normal,No,Plano,Glucosa Normal,Sano,PAC-00903,9700.0
+56,M,ATA,130,221,0,LVH,163,N,0.0,Up,0,Hombre,Angina atipica,Hipertrofia VI,No,Ascendente,Glucosa Normal,Sano,PAC-00904,7100.0
+56,M,ATA,120,240,0,Normal,169,N,0.0,Down,0,Hombre,Angina atipica,Normal,No,Descendente,Glucosa Normal,Sano,PAC-00905,8700.0
+67,M,NAP,152,212,0,LVH,150,N,0.8,Flat,1,Hombre,Dolor no anginoso,Hipertrofia VI,No,Plano,Glucosa Normal,Enfermo,PAC-00906,23900.0
+55,F,ATA,132,342,0,Normal,166,N,1.2,Up,0,Mujer,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00907,7000.0
+44,M,ASY,120,169,0,Normal,144,Y,2.8,Down,1,Hombre,Asintomatico,Normal,Si,Descendente,Glucosa Normal,Enfermo,PAC-00908,34400.0
+63,M,ASY,140,187,0,LVH,144,Y,4.0,Up,1,Hombre,Asintomatico,Hipertrofia VI,Si,Ascendente,Glucosa Normal,Enfermo,PAC-00909,37000.0
+63,F,ASY,124,197,0,Normal,136,Y,0.0,Flat,1,Mujer,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00910,34800.0
+41,M,ATA,120,157,0,Normal,182,N,0.0,Up,0,Hombre,Angina atipica,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00911,4000.0
+59,M,ASY,164,176,1,LVH,90,N,1.0,Flat,1,Hombre,Asintomatico,Hipertrofia VI,No,Plano,Glucosa Alta,Enfermo,PAC-00912,27100.0
+57,F,ASY,140,241,0,Normal,123,Y,0.2,Flat,1,Mujer,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00913,27000.0
+45,M,TA,110,264,0,Normal,132,N,1.2,Flat,1,Hombre,Angina tipica,Normal,No,Plano,Glucosa Normal,Enfermo,PAC-00914,27300.0
+68,M,ASY,144,193,1,Normal,141,N,3.4,Flat,1,Hombre,Asintomatico,Normal,No,Plano,Glucosa Alta,Enfermo,PAC-00915,32900.0
+57,M,ASY,130,131,0,Normal,115,Y,1.2,Flat,1,Hombre,Asintomatico,Normal,Si,Plano,Glucosa Normal,Enfermo,PAC-00916,29700.0
+57,F,ATA,130,236,0,LVH,174,N,0.0,Flat,1,Mujer,Angina atipica,Hipertrofia VI,No,Plano,Glucosa Normal,Enfermo,PAC-00917,22400.0
+38,M,NAP,138,175,0,Normal,173,N,0.0,Up,0,Hombre,Dolor no anginoso,Normal,No,Ascendente,Glucosa Normal,Sano,PAC-00918,4100.0

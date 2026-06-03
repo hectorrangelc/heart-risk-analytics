@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Anaconda / Power BI artifacts locales
+anaconda_projects/
+
+# Temporales
+output/_*.html
